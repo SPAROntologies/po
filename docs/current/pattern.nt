@@ -844,4 +844,3 @@ _:N7fa3ed95988e418ebc919c22bbe131cc <http://www.w3.org/2003/11/swrl#body> _:N036
 _:N874287393f874237b3df824701f59324 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
 _:N4d98bbc0d93843a2876bf959aeb93593 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N80e2954e3b564885b9c07ce889eb7513 .
 <http://purl.org/spar/po/Meta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-
