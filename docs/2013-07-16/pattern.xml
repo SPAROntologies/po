@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+>
+  <rdf:Description rdf:nodeID="Nce923be6f2fa4cbea54e0a9f517ad6c8">
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/contains"/>
+    <owl:allValuesFrom rdf:nodeID="N82cfcfe0f3ab40c697e465b535fc9aa7"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N34a2a45814d448b9af96feb3efc8e419">
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/t"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7632ad8ba858497083ab9df46c8314fc">
+    <owl:allValuesFrom rdf:nodeID="N36eba4bcd7f1438b89516f93a7eaed68"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/contains"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N80e2954e3b564885b9c07ce889eb7513">
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4bff823f720a4faf84a79d25cbf03845">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/t"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb47e0b8fda8a421bae5e7d872f20c1a7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="Neab01f88e229472bab06380f8a450121"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/isContainedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3173eb71ce5f4495b5e1d9f9fae65eb9">
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/g"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na027da3126094e04974934b7a62cbdf8">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Inline"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc5bb49442cea453382630a103aba310d">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="Nff969c36a0144c4a994fab80ea458522"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neab01f88e229472bab06380f8a450121">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nd1b751c3df494f58943a5c01fc89451b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/isContainedBy">
+    <rdfs:label xml:lang="en">is contained by</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:comment xml:lang="en">An element that is contained by another structured element.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N445c7123764140fbb7df427d22c696f9">
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc5bfabc486a948e3a5c7ac8e585812b5">
+    <rdf:first rdf:nodeID="N8e29d9a2047f40cc87b2bdea5afca89e"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dc:description xml:lang="en">The idea of using patterns to produce reusable and high-quality assets is not new in the literature. Software engineers, architects (as Alexander who first introduced this term) and designers very often use – or rather reuse – patterns to handle problems which recur over and over. Patterns have also been studied to modularize and customize web ontologies (http://ontologydesignpatterns.org). They guarantee the flexibility and maintainability of concepts and solutions in several heterogeneous scenarios.
+
+We've been investigating patterns for XML documents for some time. The overall goal of this research is to understand how the structure of digital documents can be segmented into atomic components, that can be manipulated independently and re-flowed in different contexts. Instead of defining a large number of complex and diversified structures, we have identified a small number of structures/patterns that are sufficient to express what most users need. Our idea is that a low number of patterns are enough to capture the most relevant document structures.</dc:description>
+    <dc:title xml:lang="en">The Pattern Ontology
+Describing documents by means of their structural components</dc:title>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fabio Vitali</dc:creator>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silvio Peroni</dc:creator>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.4.2</owl:versionInfo>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angelo Di Iorio</dc:creator>
+    <rdfs:label xml:lang="en">pattern ontology</rdfs:label>
+    <owl:priorVersion rdf:resource="http://dwellonit.svn.sourceforge.net/viewvc/dwellonit/StructuralPattern/Pattern-1_4.owl"/>
+    <dc:date>2013-07-16</dc:date>
+    <rdfs:comment xml:lang="en">An ontology defining formally patterns for segmenting a document into atomic components, in order to be manipulated independently and re-flowed in different contexts.</rdfs:comment>
+    <owl:backwardCompatibleWith rdf:resource="http://dwellonit.svn.sourceforge.net/viewvc/dwellonit/StructuralPattern/Pattern-1_4.owl"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf9bf17de01064ceca50544f7b1eea1af">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N338e45a053354d589729dabbbc71b4cd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/HeadedContainer">
+    <rdfs:label xml:lang="en">headed-container element</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="N61fe72f8740d4117b705647021ff1e30"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:comment xml:lang="en">This class describes container elements whose content model need to begin with one or more block elements (the heading), specified through the property containsAsHeader.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N86cb6f6cef8c46eb8fc543fc095c3eb7">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N4052de41f78b49f2a6d6e821f1bed655"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4fd8ef299a204c80bd0a7912c0d49509">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N4ce49d755de74f50ae931d53f674d013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/NonTextual">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">non-textual element</rdfs:label>
+    <rdfs:comment xml:lang="en">The class of elements that cannot have textual content in their content models.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/po/Pattern"/>
+    <owl:equivalentClass rdf:nodeID="Nd94c38be174a4958a930dff855e5e2c6"/>
+    <owl:disjointWith rdf:resource="http://purl.org/spar/po/Textual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/description">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5b1ce3fdd7284870bf20b8f92c349072">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf75acf24cea64cebbf6c8f02c19aa75c">
+    <owl:someValuesFrom rdf:nodeID="N2de5baac9d6043bc8e65436aefcd8b22"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/isContainedBy"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5de6f770e4f546ad95806186452f2378">
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Table"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N686886e030ec4109afdd16a883923790">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N3170abc948cf409e879b05d5e28ebcf2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf86ce5aab0414b3394de6e86a0a28b0f">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Inline"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8b0f037f451d4a118874f09f52fe48d0">
+    <rdf:rest rdf:nodeID="Nc5bb49442cea453382630a103aba310d"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N3173eb71ce5f4495b5e1d9f9fae65eb9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3ca0d59c9d8746d7969c621407ab99f5">
+    <rdf:rest rdf:nodeID="N8e19edbff2284cb89ba75fba7baca396"/>
+    <rdf:first rdf:nodeID="Naae05869cf494a1eaa0f331f9348eca5"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Mixed">
+    <rdfs:comment xml:lang="en">The class of elements that can contain other elements and text nodes.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/po/Structured"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">mixed element</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/po/Textual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1644ff76d87840998584f3abf0fcf316">
+    <rdf:first rdf:nodeID="N7c9ead0da88846819d94fd3295408ae8"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Marker">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">marker element</rdfs:label>
+    <rdfs:comment xml:lang="en">The class of elements that can contain neither text nodes nor elements.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/po/NonTextual"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/po/NonStructured"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Bucket">
+    <owl:disjointWith rdf:resource="http://purl.org/spar/po/Marker"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/po/Structured"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/po/NonTextual"/>
+    <rdfs:comment xml:lang="en">The class of elements that can contain other elements but no text nodes.</rdfs:comment>
+    <rdfs:label xml:lang="en">bucket element</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1fa903f3a6814f55b021a0ff195520c9">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="Nc3192871cf2541cf9c6327e4a085dd62"/>
+    <rdf:rest rdf:nodeID="Nc5bfabc486a948e3a5c7ac8e585812b5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/s">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Field">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:comment xml:lang="en">This class is defined to describe literal metadata or text that is not really part of the document body, contrarily to its disjointed sibling Atom. Its main difference with Meta is that Field can contain textual content.</rdfs:comment>
+    <rdfs:label xml:lang="en">field element</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N35e0900ac212447ba21c209b7658564e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4b7552570f854517833ffc46fe8d6999">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/isContainedBy"/>
+    <owl:someValuesFrom rdf:nodeID="Nfd299f78049441ba993a8462617356c6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naf7e05a6f422459fb31ee047d4cd67b9">
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/contains"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+    <swrl:argument2 rdf:resource="urn:swrl#x"/>
+    <swrl:argument1 rdf:resource="urn:swrl#p"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7dd04d053fe540cd8b8d01866b9d1710">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Meta"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N024dcc83aa7d4ed8bfc519e9444bb7f1">
+    <rdf:rest rdf:nodeID="N1fa903f3a6814f55b021a0ff195520c9"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N9343184b01c34fdb958f94201d7d7bd7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfb0ca1a60730401ba8d7b7962dc6ac4f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Ne3c404a0670f41aaaed072d204a3df0b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nadfbe33c351a437dbee5e69eef74cdd3">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N5b1ce3fdd7284870bf20b8f92c349072"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Inline">
+    <rdfs:comment xml:lang="en">This class has the same use and content model of the pattern Block, but differing primarily because a) inline elements can contain other elements compliant with the same pattern while block elements cannot, and b) inline elements must always be contained by other block or inline elements and by no other type of element.
+
+These constraints also imply that inline elements cannot be used as root elements of documents and that the class Block is disjoint with the class Inline (i.e., a markup element cannot be a block and an inline at the same time).</rdfs:comment>
+    <rdfs:label xml:lang="en">inline element</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="N80947848016942438fbe2c4b3ea636d0"/>
+    <rdfs:subClassOf rdf:nodeID="N7632ad8ba858497083ab9df46c8314fc"/>
+    <owl:equivalentClass rdf:nodeID="N972a093f9b804137bccc6406b06f4201"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N78e91f53eac64341968246a0565c5368">
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Container"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/containsAsHeader">
+    <rdfs:comment xml:lang="en">A structured element contains another generic element as part of its header.</rdfs:comment>
+    <owl:inverseOf rdf:resource="http://purl.org/spar/po/isContainedByAsHeader"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/spar/po/contains"/>
+    <rdfs:label xml:lang="en">contains as header</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N907d6cbed3cd44e5ab6d22d4094cb555">
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Table"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ned3b8603ac6f49a081b99249be9a3ea1">
+    <rdf:rest rdf:nodeID="Nf0beada8eb1b40a488d0cce19d5bce88"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N78e91f53eac64341968246a0565c5368"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4052de41f78b49f2a6d6e821f1bed655">
+    <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/canContainHomonymousElements"/>
+    <swrl:argument1 rdf:resource="urn:swrl#p"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N28e1f9cd02184b498b115d31b3103169">
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N47ea0f38f800438f9cd5dd7b6800b555">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Container"/>
+    <rdf:rest rdf:nodeID="Nface80a73eb748829880ea9f30f4449f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb56911dac4d34b54ac54db1881990b8a">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Textual"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8e5e03cb576447c583dcc0bb77cb3ede">
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb598e6ea160a4126907591fdb71bb2ea">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0a2e059ae1bd4b72ab4f72f7fdd03929">
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbf77922c022541d8bc20b4145c59a991">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N2a2eac4ec6824a90a4b4109df5fb3305"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3170abc948cf409e879b05d5e28ebcf2">
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Table"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N936b04c97f4d48568b4816ab714b0684">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N5c57c73df4514bd5b069694ebcb26ea9"/>
+    <rdf:rest rdf:nodeID="N3ca0d59c9d8746d7969c621407ab99f5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N713a46bbb5274c56833661978b3064e2">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Inline"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/canContainHeteronymousElements">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:label xml:lang="en">can contain heteronymous elements</rdfs:label>
+    <rdfs:comment xml:lang="en">A hierarchical-based entity contains al least two entities having different names.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/spar/po/Structured"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7863ac6275a94fdf8f637badd631e1b6">
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/z"/>
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf6dca29cebd74d51b8a4fdcb070ad20d">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:nodeID="N7c8c85c5b67040d0925a74f1487df4fb"/>
+    <rdf:first rdf:nodeID="N05a1755946c341ada1661135b78f8d35"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N034fa1f79772438a813fec56d8d29963">
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Record"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/canContainHomonymousElements">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:domain rdf:resource="http://purl.org/spar/po/Structured"/>
+    <rdfs:label xml:lang="en">can contain homonymous elements</rdfs:label>
+    <rdfs:comment xml:lang="en">A hierarchical-based entity contains al least two entities that share the same name.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N629b4dd62dc04bc9ba04ea25fcd900f7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Nef254ed5506245c5a3880d47bdb85219"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Atom">
+    <rdfs:comment xml:lang="en">This class is defined to describe literal text that is part of the document body. Moreover, similarly to Inline, elements following the Atom pattern can only be contained within block or inline elements (and consequently they also cannot be used as root elements of documents). It can contain textual content and no other elements.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="Nb47e0b8fda8a421bae5e7d872f20c1a7"/>
+    <owl:disjointWith rdf:resource="http://purl.org/spar/po/Field"/>
+    <owl:equivalentClass rdf:nodeID="Nb8f0ca35df7d4076816612c0e8039840"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">atom element</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N02915089baf248ef95f92db8229bac4b">
+    <swrl:head rdf:nodeID="N86cb6f6cef8c46eb8fc543fc095c3eb7"/>
+    <swrl:body rdf:nodeID="N6a585d3f5cd4451c8c1f563627174e0a"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N74480ba280604edd9de0cf9d78adb927">
+    <rdf:first rdf:nodeID="N034fa1f79772438a813fec56d8d29963"/>
+    <rdf:rest rdf:nodeID="Nece6c13de1c543c385a65a5871139e02"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbbb5269137db48b985484f23bc777cfb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:nodeID="N728efee7f74d4b6bbec12e44c322360a"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/contains"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N716fd5f797404b589673b80d97d31850">
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/p"/>
+    <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/canContainHeteronymousElements"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Pattern">
+    <rdfs:label xml:lang="en">pattern-based element</rdfs:label>
+    <rdfs:comment xml:lang="en">A structural pattern is an atomic component of a document, that is able to capture a recurrent and well knwon structure of a document.
+
+Any entity belonging to this class is compliant with exactly one structural pattern.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5737150ce747444c96921f5cd8c634f6">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+    <swrl:body rdf:nodeID="Ndcdf2c1cb41c4b358a6f9afbb93a90b0"/>
+    <swrl:head rdf:nodeID="N4fd8ef299a204c80bd0a7912c0d49509"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N64f219d70f9e4cb08753e39bbc45a9a9">
+    <rdf:first rdf:nodeID="Nf8ddcc2a52fb463d9f83cd2780850ecf"/>
+    <rdf:rest rdf:nodeID="Nac691862c57747ebb43486f4a9563f6e"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N07e5b5380c6547f0b81c06a0c65b4b8c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Ne0dfabcd7b7c4ff28e6c06d15b5a866b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N728efee7f74d4b6bbec12e44c322360a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Ne17aad68fd3b496e8fe5f483ef474c5d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfd710ba718de41de80a9a26ddcced485">
+    <rdf:first rdf:nodeID="N4f2d17b363844ce884d6067b363332d4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:nodeID="N733bc0feae6641258263ad0b933e0ede"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf982a31dc9e449068a025dc2c16b6982">
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Block">
+    <owl:equivalentClass rdf:nodeID="N629b4dd62dc04bc9ba04ea25fcd900f7"/>
+    <rdfs:subClassOf rdf:nodeID="N79347523558941aa8aea61ea0b8b3f93"/>
+    <owl:disjointWith rdf:resource="http://purl.org/spar/po/Inline"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:comment xml:lang="en">This class organise the document content as a sequence of nestable elements and text nodes. In particular, elements following this pattern can contain text and other elements compliant with the patterns Inline, Atom, Milestones and Popup, which will be introduced in the following. Furthermore, it is a requirement that block elements are contained only by container and popup elements</rdfs:comment>
+    <rdfs:label xml:lang="en">block element</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc6ca117db0f047ffa3cfd7997054f9f7">
+    <rdf:first rdf:nodeID="Nd68d1ca1878741dbad22a9ddf48049b1"/>
+    <rdf:rest rdf:nodeID="N803262416e124c25b50b0434c6ab90a2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2a2eac4ec6824a90a4b4109df5fb3305">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+    <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#notEqual"/>
+    <swrl:arguments rdf:nodeID="N0bb95dc148eb409e9e53258c470eff8a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne17aad68fd3b496e8fe5f483ef474c5d">
+    <rdf:rest rdf:nodeID="Ncfb0472456bb4adab88d1f66f12d7b17"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Block"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N61fe72f8740d4117b705647021ff1e30">
+    <owl:intersectionOf rdf:nodeID="Nf25930d898e5442baeeb1b33d459ddf2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb0fdbaa2060f4dc2a1371c7507f087f1">
+    <rdf:rest rdf:nodeID="Nd89826c8eab043d39d39f2c8c8205e03"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Flat"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2de5baac9d6043bc8e65436aefcd8b22">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nc245b49d13f948519b1b6ba79357308a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4162a4fee59548d2a9e42a22406fd9ce">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N7824858a182141f9aef835555d133890"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N336ea59e9a954df192d2223bebae0af8">
+    <rdf:rest rdf:nodeID="Nc6cb59ef19694e3bb95a1c22b0617c48"/>
+    <rdf:first rdf:nodeID="Na17212e274fb4e10912ee2367a4d5246"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N48f767b912164ecca0cafbee4331317e">
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Block"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4295835255b14707b3b0f6c25a829f01">
+    <rdf:first rdf:nodeID="N48f767b912164ecca0cafbee4331317e"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N424a5f324fae4c6cb88e4cf2f712d389">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+    <swrl:head rdf:nodeID="Nd3307aaace4b4c6782d23efe5f8a5e96"/>
+    <swrl:body rdf:nodeID="Ned3b8603ac6f49a081b99249be9a3ea1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N569daf456d644c1bb8c83dfc5f199da4">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Block"/>
+    <rdf:rest rdf:nodeID="N2b8b8584893d4ec9b025a5fe936a2283"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N79347523558941aa8aea61ea0b8b3f93">
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/contains"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:nodeID="N199875f58c72426f816e5f60b0c970fa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Table">
+    <owl:equivalentClass rdf:nodeID="N57364a85b1bf46a08e21755ec25214c7"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">table element</rdfs:label>
+    <rdfs:comment xml:lang="en">This class describes container elements that must contain only homogeneous elements (but they can be repeated).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/z">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N61542063e68a4a5ab6d46bbb725f5224">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:complementOf rdf:resource="http://purl.org/spar/po/Structured"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4be404967c474df88c0a7d7abeb517ed">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Block"/>
+    <rdf:rest rdf:nodeID="Nf86ce5aab0414b3394de6e86a0a28b0f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naf20a48d93cc4c949f4d701e8d83f3fb">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Block"/>
+    <rdf:rest rdf:nodeID="Ne79ab92691854065a1dbf6a33b4c3993"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8c86d636037b4dea9f3fe670f61ed015">
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/canContainHomonymousElements"/>
+    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1c7ac8f097b244a7a6c65ee900a8e7e0">
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Field"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nde2c1e4ae60445c39cb42e500b3659c9">
+    <rdf:rest rdf:nodeID="N05d7c522313f43e8804bfe83385062a4"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N77892a8f7dae48b3a43548c68d10e4c6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N496f6760e2e747b29dae06551e955af6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7e4b026279bf40c79a64fed5130108c4">
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N759f8c422da143a8becb72a311ef0ef0">
+    <rdf:first rdf:nodeID="N1c7ac8f097b244a7a6c65ee900a8e7e0"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N07cbb73b7d7646e3927e0fa3e6c40d11">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Popup"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Textual">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:comment xml:lang="en">The class of elements that can have textual content in their content models.</rdfs:comment>
+    <rdfs:label xml:lang="en">textual element</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/po/Pattern"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N81740336af054ae89973033fa61f3866">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N69659f0824034a3eb7602caff20155da"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N803262416e124c25b50b0434c6ab90a2">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N960c13fa682948169f36bac445822bc6"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndd66d98f3b764189a4852e1e73280ac1">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Inline"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N496f6760e2e747b29dae06551e955af6">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Container"/>
+    <rdf:rest rdf:nodeID="Nea5d21417a10432ea259e22ded5f3115"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5fffe190f2384e62aa488da0da3d11d3">
+    <swrl:head rdf:nodeID="Nadfbe33c351a437dbee5e69eef74cdd3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+    <swrl:body rdf:nodeID="N74480ba280604edd9de0cf9d78adb927"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N428e6c1dc8454d6cb3c40f2b27f93a2f">
+    <rdf:first rdf:nodeID="N815ab898336b49f1bb7600582cd70bc7"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na463133e1a194cdcaa1ecdfc489c66a9">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Inline"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N84d2ee8d6c4e434f8c3a81d2a650b5a5">
+    <rdf:first rdf:nodeID="N2cc5211178394853911d8d961f373f2d"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7824858a182141f9aef835555d133890">
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc36187c6a1754894b7ed86d281679ac4">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="Nb960c208a8c14a2b994ce9c95c982531"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2cc5211178394853911d8d961f373f2d">
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/containsAsHeader"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/po/Block"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/contains">
+    <rdfs:domain rdf:resource="http://purl.org/spar/po/Structured"/>
+    <rdfs:comment xml:lang="en">A structured element contains another generic element.</rdfs:comment>
+    <rdfs:label xml:lang="en">contains</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://purl.org/spar/po/isContainedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncfb0472456bb4adab88d1f66f12d7b17">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Container"/>
+    <rdf:rest rdf:nodeID="N5fde5d07e24f4a9ca6da4483002411cd"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N99604afc1062403ab92832fbea676938">
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8a394f28e02a4523a67947b7f7482abe">
+    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/canContainHomonymousElements"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb960c208a8c14a2b994ce9c95c982531">
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nab4bbd59fb984af181f91e979dbf7ceb">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N34ac0ee38fc54bd5a100405a7b98fc0c"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4f2d17b363844ce884d6067b363332d4">
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/y"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/contains"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N960c13fa682948169f36bac445822bc6">
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N45e022b96cb44c97a9e1897f4538862b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:nodeID="Nbbc8118d18f3418ca945cae17e167804"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/isContainedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N98a45952699d43e88dfd5adc92f3c504">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Bucket"/>
+    <rdf:rest rdf:nodeID="N428e6c1dc8454d6cb3c40f2b27f93a2f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8e29d9a2047f40cc87b2bdea5afca89e">
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N91b785436455425db901fb3d09127d3b">
+    <rdf:first rdf:nodeID="N0a2e059ae1bd4b72ab4f72f7fdd03929"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb37bc35ea4be43c18c6b1ecc2168a7c1">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="Nf982a31dc9e449068a025dc2c16b6982"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N644c37c1c0344949a1793a8d3f17722a">
+    <rdf:rest rdf:nodeID="N9784e8288041471f8805c71f86017c6b"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Atom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N036cba352be54f3ba0c44a85099091da">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N8753c2012db745f1b86210d396331d49"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7c9ead0da88846819d94fd3295408ae8">
+    <owl:allValuesFrom rdf:nodeID="N98003b183bc94d9f8172a9e3be5953bd"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/isContainedBy"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfa9f38802e0443878290fda73d69a1fe">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Container"/>
+    <rdf:rest rdf:nodeID="N336ea59e9a954df192d2223bebae0af8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N97d53ca1a55d414aa97936d787429566">
+    <owl:intersectionOf rdf:nodeID="N98a45952699d43e88dfd5adc92f3c504"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/isContainedByAsHeader">
+    <rdfs:label xml:lang="en">is contained by as header</rdfs:label>
+    <rdfs:comment xml:lang="en">An element is contained by another structured element as part of its header.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/spar/po/isContainedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N47e208d76c334877a4e396b91257c802">
+    <rdf:first rdf:nodeID="Nb598e6ea160a4126907591fdb71bb2ea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:nodeID="N510938a215344d9cb2a9a08dd6e6cd5b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4077837f720741638d4a6060f22def47">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Pattern"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N76838b0b720a42ef9baae817c7603335">
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Inline"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N54a5a8c96c354741b3304fead10736fd">
+    <rdf:rest rdf:nodeID="Nf9bf17de01064ceca50544f7b1eea1af"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Marker"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na9650218507f402885fbe8e89f7f6811">
+    <owl:unionOf rdf:nodeID="N47ea0f38f800438f9cd5dd7b6800b555"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7de19da340024dd58c7e1e756fccebc2">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Field"/>
+    <rdf:rest rdf:nodeID="N7dd04d053fe540cd8b8d01866b9d1710"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9343184b01c34fdb958f94201d7d7bd7">
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Milestone"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N527b269feb3643949b9e82efe67565e5">
+    <swrl:body rdf:nodeID="N9e2c99818fe34c308b9883c7b884d5be"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+    <swrl:head rdf:nodeID="Nbe1d3665da424dfd912da734a06c598b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N972a093f9b804137bccc6406b06f4201">
+    <owl:intersectionOf rdf:nodeID="N938ebb465e0c4ac781265cafb1350ba9"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Milestone">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:comment xml:lang="en">This class describe elements that contain neither other elements nor textual content. Moreover, similarly to Inline, elements following the Milestone pattern can only be contained within block or inline elements (and consequently they also cannot be used as root elements of documents).
+
+The distinctive characteristic of the pattern Milestone is the location it assumes within the document.</rdfs:comment>
+    <rdfs:label xml:lang="en">milestone element</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Nb24ab2cc3f124bd2ada6e0fd1f8de191"/>
+    <rdfs:subClassOf rdf:nodeID="Nf75acf24cea64cebbf6c8f02c19aa75c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na17212e274fb4e10912ee2367a4d5246">
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/canContainHeteronymousElements"/>
+    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/hasName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">has name</rdfs:label>
+    <rdfs:comment xml:lang="en">The name of a particular element.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6378536f6ca44f439ed10bc3c2bf080a">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Block"/>
+    <rdf:rest rdf:nodeID="N7a3c5011e1404d09bdb5a664997ccb6a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9e2c99818fe34c308b9883c7b884d5be">
+    <rdf:rest rdf:nodeID="N7ef16ccbedf54b2997244b1c0fa833b3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N9efe73707e734e0bbaddc2aec51f3fd2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2c6dabcbad184410b7ed11e60ebd7882">
+    <rdf:first rdf:nodeID="N4b7552570f854517833ffc46fe8d6999"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/NonStructured">
+    <owl:equivalentClass rdf:nodeID="N61542063e68a4a5ab6d46bbb725f5224"/>
+    <rdfs:comment xml:lang="en">The class of elements that cannot contain other elements.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/po/Pattern"/>
+    <owl:disjointWith rdf:resource="http://purl.org/spar/po/Structured"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">non-structured element</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Meta">
+    <rdfs:comment xml:lang="en">This class describes elements that contain neither other elements nor textual content. Contrarily to the pattern Milestone, which was meant to describe markup elements that impact the document because of their location, the main feature of its disjoint sibling is the mere existence, independently from the position it has within the document. Meta elements convey metadata information about the document or part of it, independently of where they are. Thus, meta elements can be contained only within container elements.</rdfs:comment>
+    <owl:equivalentClass rdf:nodeID="N2156a96aa0b34b71ba51ee612faca3b5"/>
+    <rdfs:label xml:lang="en">meta element</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:disjointWith rdf:resource="http://purl.org/spar/po/Milestone"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N80947848016942438fbe2c4b3ea636d0">
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/isContainedBy"/>
+    <owl:someValuesFrom rdf:nodeID="N229b3c1e4c4149d3985b1e21f1cc4d40"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0b0f12373ccc439d8f4498f1920a4523">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/canContainHeteronymousElements"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nba58e49ee9f94f47ac9fd106949e68ea">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Inline"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf0beada8eb1b40a488d0cce19d5bce88">
+    <rdf:first rdf:nodeID="N445c7123764140fbb7df427d22c696f9"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:nodeID="N91b785436455425db901fb3d09127d3b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N00b0789216ef4fcc8223049bdfc3d58d">
+    <rdf:rest rdf:nodeID="N8754847a2aaa4c9b9a56025be0211d93"/>
+    <rdf:first rdf:nodeID="N0b0f12373ccc439d8f4498f1920a4523"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4672f54bc6e74cc48d1e16783ab633f4">
+    <swrl:body rdf:nodeID="N52875b3325f649c7ae4ca9979216ef6a"/>
+    <swrl:head rdf:nodeID="N300c418dab8e41eebe21f8390a99c38e"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0c176b8a6df74388a00bc487b82d0789">
+    <swrl:head rdf:nodeID="N1c1d5c674e954a71b3e3a2bfa0ad1c30"/>
+    <swrl:body rdf:nodeID="N024dcc83aa7d4ed8bfc519e9444bb7f1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/t">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Container">
+    <owl:equivalentClass rdf:nodeID="Nfb0ca1a60730401ba8d7b7962dc6ac4f"/>
+    <owl:disjointWith rdf:resource="http://purl.org/spar/po/Popup"/>
+    <rdfs:subClassOf rdf:nodeID="Nce923be6f2fa4cbea54e0a9f517ad6c8"/>
+    <rdfs:label xml:lang="en">container element</rdfs:label>
+    <rdfs:comment xml:lang="en">This class concerns the structural organization of a document. Elements following this pattern contain no textual content and contain only elements compliant with the patterns: Meta, Field, Block and any subtype of Container. It is disjointed with the pattern Popup, although they share the same content model.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/title">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/x">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndd437d9b0fb44cdf846c34740254f5ab">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Container"/>
+    <rdf:rest rdf:nodeID="Nc665fcebb6c44df79429bb45458cc5ac"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4ce49d755de74f50ae931d53f674d013">
+    <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</swrl:argument2>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/canContainHeteronymousElements"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5cd3036e4cfa4298a5a64944e8e09593">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne4a9688e75254538baac7a1dd82f5755">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Popup"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb8f0ca35df7d4076816612c0e8039840">
+    <owl:intersectionOf rdf:nodeID="N4638d37bd4de4281bd537a28d4762b62"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N229b3c1e4c4149d3985b1e21f1cc4d40">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N6378536f6ca44f439ed10bc3c2bf080a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N09658a3b457c4f778086c15a99fe11c4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:nodeID="Na9650218507f402885fbe8e89f7f6811"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/isContainedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf0a40dc925f6420292f89824c7453c38">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Milestone"/>
+    <rdf:rest rdf:nodeID="N170933377a8149b9b1b5e97486f14ce2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd68d1ca1878741dbad22a9ddf48049b1">
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/g">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N34477a810fa643a9bb16976ea1f126e7">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Meta"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd026778b6edd4757aa5825fd96892586">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Container"/>
+    <rdf:rest rdf:nodeID="N07cbb73b7d7646e3927e0fa3e6c40d11"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N16a5882ee56d46a6af872613979d42df">
+    <rdf:first rdf:nodeID="Na762544478964fb48f05f2adb37ddb0e"/>
+    <rdf:rest rdf:nodeID="N4d98bbc0d93843a2876bf959aeb93593"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Popup">
+    <rdfs:label xml:lang="en">popup element</rdfs:label>
+    <rdfs:comment xml:lang="en">This class defines bucket elements that are only present within block and inline elements. Popup elements are used whenever complex structures need to be placed within content elements such as paragraphs. </rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="Nbbb5269137db48b985484f23bc777cfb"/>
+    <owl:equivalentClass rdf:nodeID="N97d53ca1a55d414aa97936d787429566"/>
+    <rdfs:subClassOf rdf:nodeID="Nab870b653f3c4d5e86399877c857fd5d"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4638d37bd4de4281bd537a28d4762b62">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Flat"/>
+    <rdf:rest rdf:nodeID="N20d345d76ea440b9a7975ca597356a38"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8754847a2aaa4c9b9a56025be0211d93">
+    <rdf:first rdf:nodeID="N8a394f28e02a4523a67947b7f7482abe"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7989bf8a97c5491f88ad2a93479bae10">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <swrl:argument2 rdf:resource="urn:swrl#s"/>
+    <swrl:argument1 rdf:resource="urn:swrl#y"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nface80a73eb748829880ea9f30f4449f">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Popup"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8e19edbff2284cb89ba75fba7baca396">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N7989bf8a97c5491f88ad2a93479bae10"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N47119ac5f2fc43549f81d5dae1e36b43">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N6c1e341ab91b4917b7e2b7f259f0a521"/>
+    <rdf:rest rdf:nodeID="N16a5882ee56d46a6af872613979d42df"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Flat">
+    <rdfs:comment xml:lang="en">The class of elements that can contain text nodes but no elements.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/po/Textual"/>
+    <rdfs:label xml:lang="en">flat element</rdfs:label>
+    <owl:disjointWith rdf:resource="http://purl.org/spar/po/Mixed"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/po/NonStructured"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/date">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nec1c658a9fe346e6b8818687209e2863">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N7e4b026279bf40c79a64fed5130108c4"/>
+    <rdf:rest rdf:nodeID="Nc36187c6a1754894b7ed86d281679ac4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nea5d21417a10432ea259e22ded5f3115">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Popup"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0c7b233f1c934f54b2601d5d2707ef2f">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="Nff374a9a6fe64657ab262edb3d540bf0"/>
+    <rdf:rest rdf:nodeID="Nc6ca117db0f047ffa3cfd7997054f9f7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf3bec2976df347558ed3eceaee75db91">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N4be404967c474df88c0a7d7abeb517ed"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd3307aaace4b4c6782d23efe5f8a5e96">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="Ncaeab1ea7bff4a0abb763bd381590038"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1135faa88aee487c8b4388d6bf97aae5">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+    <swrl:body rdf:nodeID="N47119ac5f2fc43549f81d5dae1e36b43"/>
+    <swrl:head rdf:nodeID="N759f8c422da143a8becb72a311ef0ef0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7ef16ccbedf54b2997244b1c0fa833b3">
+    <rdf:rest rdf:nodeID="N47e208d76c334877a4e396b91257c802"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N64318863a9064ce482e2ecc50bd02e1a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N69659f0824034a3eb7602caff20155da">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Textual"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N936f49c0d05047db8662c021f4089fc0">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N76838b0b720a42ef9baae817c7603335"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc3192871cf2541cf9c6327e4a085dd62">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb24ab2cc3f124bd2ada6e0fd1f8de191">
+    <owl:intersectionOf rdf:nodeID="N54a5a8c96c354741b3304fead10736fd"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N458ca544b58a441a94206d6c3f58c17c">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</swrl:argument2>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/canContainHomonymousElements"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc6cb59ef19694e3bb95a1c22b0617c48">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N8c86d636037b4dea9f3fe670f61ed015"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na762544478964fb48f05f2adb37ddb0e">
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nab870b653f3c4d5e86399877c857fd5d">
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/isContainedBy"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="N279d435bbd124f719e6c8568dd74f116"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6a585d3f5cd4451c8c1f563627174e0a">
+    <rdf:first rdf:nodeID="Naf7e05a6f422459fb31ee047d4cd67b9"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:nodeID="N936b04c97f4d48568b4816ab714b0684"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7c5d66590b6c407290b1c7f2c7728be3">
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Milestone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N190f40eabf914557aee8836fe2a27450">
+    <rdf:rest rdf:nodeID="Ndd66d98f3b764189a4852e1e73280ac1"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Block"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf4b5aa1b431b45e9a5078cabc1baf3ac">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N99604afc1062403ab92832fbea676938"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfe1c5d3d5dad44ab91c3e4398f8fd0d9">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N7863ac6275a94fdf8f637badd631e1b6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9784e8288041471f8805c71f86017c6b">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Inline"/>
+    <rdf:rest rdf:nodeID="Nf0a40dc925f6420292f89824c7453c38"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N91bc97bcb1f54b4fb146bbd5fdef41df">
+    <rdf:first rdf:nodeID="N458ca544b58a441a94206d6c3f58c17c"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbbc8118d18f3418ca945cae17e167804">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nd026778b6edd4757aa5825fd96892586"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf8ddcc2a52fb463d9f83cd2780850ecf">
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Inline"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc665fcebb6c44df79429bb45458cc5ac">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Popup"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N510938a215344d9cb2a9a08dd6e6cd5b">
+    <rdf:first rdf:nodeID="N34a2a45814d448b9af96feb3efc8e419"/>
+    <rdf:rest rdf:nodeID="Nbf77922c022541d8bc20b4145c59a991"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N522d01aad6494da8a86a35d71c515454">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Inline"/>
+    <rdf:rest rdf:nodeID="Naa1fa905993f4d14a51d502f278fd5fe"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nee769f67345f45a58258d72ea6d9ca3c">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Atom"/>
+    <rdf:rest rdf:nodeID="N522d01aad6494da8a86a35d71c515454"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4d98bbc0d93843a2876bf959aeb93593">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N80e2954e3b564885b9c07ce889eb7513"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:swrl#p">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N82c732b2a921432e88e26037e39d91e4">
+    <swrl:head rdf:nodeID="N936f49c0d05047db8662c021f4089fc0"/>
+    <swrl:body rdf:nodeID="N64f219d70f9e4cb08753e39bbc45a9a9"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2156a96aa0b34b71ba51ee612faca3b5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Ndc03f5bb9cfc473db773e4887fac8c66"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5fde5d07e24f4a9ca6da4483002411cd">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Field"/>
+    <rdf:rest rdf:nodeID="N34477a810fa643a9bb16976ea1f126e7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne0dfabcd7b7c4ff28e6c06d15b5a866b">
+    <rdf:rest rdf:nodeID="Na463133e1a194cdcaa1ecdfc489c66a9"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Block"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2b8b8584893d4ec9b025a5fe936a2283">
+    <rdf:rest rdf:nodeID="N7de19da340024dd58c7e1e756fccebc2"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Container"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N57364a85b1bf46a08e21755ec25214c7">
+    <owl:intersectionOf rdf:nodeID="Nfa9f38802e0443878290fda73d69a1fe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc945d0df68a84d2ebf09a673454e71e8">
+    <owl:intersectionOf rdf:nodeID="N0e3fc59f21444d7d8941188c9f0529cc"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N05a1755946c341ada1661135b78f8d35">
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Table"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7a3c5011e1404d09bdb5a664997ccb6a">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Inline"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne3c404a0670f41aaaed072d204a3df0b">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Bucket"/>
+    <rdf:rest rdf:nodeID="N334d8276b7c140e8bb6af5758f5ca592"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N64318863a9064ce482e2ecc50bd02e1a">
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/y"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/p"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/contains"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N338e45a053354d589729dabbbc71b4cd">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:nodeID="N2324a187027e4bea8037c0d0c3062add"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/isContainedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5bb31ccb771d488b9a1b3388e91ece77">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+    <swrl:head rdf:nodeID="N81740336af054ae89973033fa61f3866"/>
+    <swrl:body rdf:nodeID="N027b24c69e0d401b8f49ecc39893334a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naa1fa905993f4d14a51d502f278fd5fe">
+    <rdf:rest rdf:nodeID="Ne4a9688e75254538baac7a1dd82f5755"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Milestone"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N52875b3325f649c7ae4ca9979216ef6a">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N72a9bd01be13498e901cf505c2639017"/>
+    <rdf:rest rdf:nodeID="Nec1c658a9fe346e6b8818687209e2863"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfd299f78049441ba993a8462617356c6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Ndd437d9b0fb44cdf846c34740254f5ab"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N170933377a8149b9b1b5e97486f14ce2">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Popup"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nef254ed5506245c5a3880d47bdb85219">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Mixed"/>
+    <rdf:rest rdf:nodeID="N10592ce1b83e4abea81fb37f2a5554d9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9efe73707e734e0bbaddc2aec51f3fd2">
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/contains"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/p"/>
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncaeab1ea7bff4a0abb763bd381590038">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Container"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N42181ac413e04ee4a9387e484beec1f4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/isContainedBy"/>
+    <owl:allValuesFrom rdf:nodeID="Nf3bec2976df347558ed3eceaee75db91"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naa23c10a675a47e790312fac85dac265">
+    <swrl:head rdf:nodeID="N686886e030ec4109afdd16a883923790"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+    <swrl:body rdf:nodeID="Nf6dca29cebd74d51b8a4fdcb070ad20d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Record">
+    <rdfs:label xml:lang="en">record element</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="Nc945d0df68a84d2ebf09a673454e71e8"/>
+    <rdfs:comment xml:lang="en">This class describes container elements that can only contain heterogeneous and non repeatable elements.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc1cca19673e543369ffa0bd9ea239062">
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/z"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/contains"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbe1d3665da424dfd912da734a06c598b">
+    <rdf:first rdf:nodeID="N716fd5f797404b589673b80d97d31850"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N98003b183bc94d9f8172a9e3be5953bd">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nae362a9d8ec74a6b82a56d119eaa29f2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf25930d898e5442baeeb1b33d459ddf2">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Container"/>
+    <rdf:rest rdf:nodeID="N84d2ee8d6c4e434f8c3a81d2a650b5a5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd1b751c3df494f58943a5c01fc89451b">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Block"/>
+    <rdf:rest rdf:nodeID="N713a46bbb5274c56833661978b3064e2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3517c269f4bf4fcda1a9d4acdd978b23">
+    <owl:members rdf:nodeID="N7798f716d64448b5963bd59689a1c514"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N300c418dab8e41eebe21f8390a99c38e">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N364282a39e22422aa27a803d8689da49"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/Structured">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:comment xml:lang="en">The class of elements that can contain other elements.</rdfs:comment>
+    <rdfs:label xml:lang="en">structured element</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/po/Pattern"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndcdf2c1cb41c4b358a6f9afbb93a90b0">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N5de6f770e4f546ad95806186452f2378"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:swrl#x">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5c57c73df4514bd5b069694ebcb26ea9">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+    <swrl:argument1 rdf:resource="urn:swrl#p"/>
+    <swrl:argument2 rdf:resource="urn:swrl#y"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/contains"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6c1e341ab91b4917b7e2b7f259f0a521">
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Field"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N815ab898336b49f1bb7600582cd70bc7">
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/isContainedBy"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:nodeID="N07e5b5380c6547f0b81c06a0c65b4b8c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7fa3ed95988e418ebc919c22bbe131cc">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+    <swrl:head rdf:nodeID="N91bc97bcb1f54b4fb146bbd5fdef41df"/>
+    <swrl:body rdf:nodeID="N036cba352be54f3ba0c44a85099091da"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N35e0900ac212447ba21c209b7658564e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Nb0fdbaa2060f4dc2a1371c7507f087f1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N34ac0ee38fc54bd5a100405a7b98fc0c">
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/s"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N20d345d76ea440b9a7975ca597356a38">
+    <rdf:first rdf:nodeID="N42181ac413e04ee4a9387e484beec1f4"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N199875f58c72426f816e5f60b0c970fa">
+    <owl:unionOf rdf:nodeID="Nee769f67345f45a58258d72ea6d9ca3c"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N05d7c522313f43e8804bfe83385062a4">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Table"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7798f716d64448b5963bd59689a1c514">
+    <rdf:first rdf:resource="http://purl.org/spar/po/HeadedContainer"/>
+    <rdf:rest rdf:nodeID="Nde2c1e4ae60445c39cb42e500b3659c9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N027b24c69e0d401b8f49ecc39893334a">
+    <rdf:first rdf:nodeID="N4077837f720741638d4a6060f22def47"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:nodeID="N8a94b430728641c8aeb62a47e3be3029"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndc03f5bb9cfc473db773e4887fac8c66">
+    <rdf:rest rdf:nodeID="N2c6dabcbad184410b7ed11e60ebd7882"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Marker"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd89826c8eab043d39d39f2c8c8205e03">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N09658a3b457c4f778086c15a99fe11c4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/creator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naae05869cf494a1eaa0f331f9348eca5">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:argument1 rdf:resource="urn:swrl#x"/>
+    <swrl:argument2 rdf:resource="urn:swrl#s"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N82cfcfe0f3ab40c697e465b535fc9aa7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N569daf456d644c1bb8c83dfc5f199da4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nff969c36a0144c4a994fab80ea458522">
+    <swrl:argument2 rdf:resource="http://purl.org/spar/po/g"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+    <swrl:propertyPredicate rdf:resource="http://purl.org/spar/po/hasName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/p">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N10592ce1b83e4abea81fb37f2a5554d9">
+    <rdf:first rdf:nodeID="N45e022b96cb44c97a9e1897f4538862b"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nece6c13de1c543c385a65a5871139e02">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:nodeID="N4162a4fee59548d2a9e42a22406fd9ce"/>
+    <rdf:first rdf:nodeID="N5cd3036e4cfa4298a5a64944e8e09593"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7077b837b8a04bd4a9a558a2fed5bc14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:nodeID="N77892a8f7dae48b3a43548c68d10e4c6"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/po/isContainedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N874287393f874237b3df824701f59324">
+    <swrl:body rdf:nodeID="N45ee9112db2246edaab7ac14f6ca7541"/>
+    <swrl:head rdf:nodeID="Nf4b5aa1b431b45e9a5078cabc1baf3ac"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8a94b430728641c8aeb62a47e3be3029">
+    <rdf:rest rdf:nodeID="N8b0f037f451d4a118874f09f52fe48d0"/>
+    <rdf:first rdf:nodeID="Nb56911dac4d34b54ac54db1881990b8a"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0e3fc59f21444d7d8941188c9f0529cc">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Container"/>
+    <rdf:rest rdf:nodeID="N00b0789216ef4fcc8223049bdfc3d58d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N72a9bd01be13498e901cf505c2639017">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Meta"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N364282a39e22422aa27a803d8689da49">
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/y"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Meta"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N334d8276b7c140e8bb6af5758f5ca592">
+    <rdf:first rdf:nodeID="N7077b837b8a04bd4a9a558a2fed5bc14"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nac691862c57747ebb43486f4a9563f6e">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N28e1f9cd02184b498b115d31b3103169"/>
+    <rdf:rest rdf:nodeID="Nb37bc35ea4be43c18c6b1ecc2168a7c1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/po/y">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N45ee9112db2246edaab7ac14f6ca7541">
+    <rdf:first rdf:nodeID="N907d6cbed3cd44e5ab6d22d4094cb555"/>
+    <rdf:rest rdf:nodeID="Nfd710ba718de41de80a9a26ddcced485"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nae362a9d8ec74a6b82a56d119eaa29f2">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Block"/>
+    <rdf:rest rdf:nodeID="Nba58e49ee9f94f47ac9fd106949e68ea"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd94c38be174a4958a930dff855e5e2c6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:complementOf rdf:resource="http://purl.org/spar/po/Textual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N733bc0feae6641258263ad0b933e0ede">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:rest rdf:nodeID="Nfe1c5d3d5dad44ab91c3e4398f8fd0d9"/>
+    <rdf:first rdf:nodeID="Nc1cca19673e543369ffa0bd9ea239062"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1c1d5c674e954a71b3e3a2bfa0ad1c30">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N7c5d66590b6c407290b1c7f2c7728be3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nff374a9a6fe64657ab262edb3d540bf0">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Block"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc245b49d13f948519b1b6ba79357308a">
+    <rdf:rest rdf:nodeID="Na027da3126094e04974934b7a62cbdf8"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Block"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7c8c85c5b67040d0925a74f1487df4fb">
+    <rdf:first rdf:nodeID="N8e5e03cb576447c583dcc0bb77cb3ede"/>
+    <rdf:rest rdf:nodeID="Nab4bbd59fb984af181f91e979dbf7ceb"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:swrl#s">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0bb95dc148eb409e9e53258c470eff8a">
+    <rdf:first rdf:resource="http://purl.org/spar/po/s"/>
+    <rdf:rest rdf:nodeID="N4bff823f720a4faf84a79d25cbf03845"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8753c2012db745f1b86210d396331d49">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://purl.org/spar/po/Record"/>
+    <swrl:argument1 rdf:resource="http://purl.org/spar/po/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N279d435bbd124f719e6c8568dd74f116">
+    <owl:unionOf rdf:nodeID="N190f40eabf914557aee8836fe2a27450"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N36eba4bcd7f1438b89516f93a7eaed68">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N644c37c1c0344949a1793a8d3f17722a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne79ab92691854065a1dbf6a33b4c3993">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://purl.org/spar/po/Inline"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nff4dd5339ec142948eb4b552d43346a8">
+    <swrl:head rdf:nodeID="N4295835255b14707b3b0f6c25a829f01"/>
+    <swrl:body rdf:nodeID="N0c7b233f1c934f54b2601d5d2707ef2f"/>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N938ebb465e0c4ac781265cafb1350ba9">
+    <rdf:first rdf:resource="http://purl.org/spar/po/Mixed"/>
+    <rdf:rest rdf:nodeID="N1644ff76d87840998584f3abf0fcf316"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2324a187027e4bea8037c0d0c3062add">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Naf20a48d93cc4c949f4d701e8d83f3fb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:swrl#y">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+</rdf:RDF>
