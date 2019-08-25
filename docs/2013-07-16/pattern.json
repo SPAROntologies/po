@@ -1,6 +1,6 @@
 [
   {
-    "@id": "http://purl.org/spar/po/Container",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Container",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -23,7 +23,7 @@
     ],
     "http://www.w3.org/2002/07/owl#disjointWith": [
       {
-        "@id": "http://purl.org/spar/po/Popup"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Popup"
       }
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
@@ -39,17 +39,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -65,7 +65,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/isContainedBy"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
       }
     ]
   },
@@ -76,17 +76,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/contains"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#contains"
       }
     ]
   },
@@ -145,12 +145,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/isContainedBy",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy",
     "@type": [
       "http://www.w3.org/2002/07/owl#ObjectProperty"
     ],
@@ -180,17 +180,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Table"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Table"
       }
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/Marker",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Marker",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -208,10 +208,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/po/NonTextual"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#NonTextual"
       },
       {
-        "@id": "http://purl.org/spar/po/NonStructured"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#NonStructured"
       }
     ]
   },
@@ -224,10 +224,10 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Block"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
           },
           {
-            "@id": "http://purl.org/spar/po/Inline"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
           }
         ]
       }
@@ -242,10 +242,10 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Block"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
           },
           {
-            "@id": "http://purl.org/spar/po/Inline"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
           }
         ]
       }
@@ -258,7 +258,7 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
@@ -268,7 +268,7 @@
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/canContainHeteronymousElements"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements"
       }
     ]
   },
@@ -284,12 +284,12 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/isContainedBy"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
       }
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/Pattern",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Pattern",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -312,7 +312,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/Bucket",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Bucket",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -330,15 +330,15 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/po/Structured"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Structured"
       },
       {
-        "@id": "http://purl.org/spar/po/NonTextual"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#NonTextual"
       }
     ],
     "http://www.w3.org/2002/07/owl#disjointWith": [
       {
-        "@id": "http://purl.org/spar/po/Marker"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Marker"
       }
     ]
   },
@@ -354,7 +354,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/contains"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#contains"
       }
     ]
   },
@@ -367,10 +367,10 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Block"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
           },
           {
-            "@id": "http://purl.org/spar/po/Inline"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
           }
         ]
       }
@@ -385,7 +385,7 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Marker"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Marker"
           },
           {
             "@id": "_:N4b7552570f854517833ffc46fe8d6999"
@@ -395,7 +395,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/y",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#y",
     "@type": [
       "http://www.w3.org/2003/11/swrl#Variable"
     ]
@@ -409,7 +409,7 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Flat"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Flat"
           },
           {
             "@id": "_:N09658a3b457c4f778086c15a99fe11c4"
@@ -441,17 +441,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/z"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#z"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/contains"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#contains"
       }
     ]
   },
@@ -472,7 +472,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/Textual",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Textual",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -490,7 +490,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/po/Pattern"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Pattern"
       }
     ]
   },
@@ -517,22 +517,22 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/Record",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Record",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -579,16 +579,16 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Atom"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Atom"
           },
           {
-            "@id": "http://purl.org/spar/po/Inline"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
           },
           {
-            "@id": "http://purl.org/spar/po/Milestone"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Milestone"
           },
           {
-            "@id": "http://purl.org/spar/po/Popup"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Popup"
           }
         ]
       }
@@ -633,17 +633,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/g"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#g"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -654,17 +654,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -691,12 +691,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Table"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Table"
       }
     ]
   },
@@ -707,17 +707,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -728,22 +728,22 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/Block",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Block",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -766,7 +766,7 @@
     ],
     "http://www.w3.org/2002/07/owl#disjointWith": [
       {
-        "@id": "http://purl.org/spar/po/Inline"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
       }
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
@@ -782,7 +782,7 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
@@ -792,7 +792,7 @@
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/canContainHomonymousElements"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#canContainHomonymousElements"
       }
     ]
   },
@@ -803,17 +803,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -872,17 +872,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -893,12 +893,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Milestone"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Milestone"
       }
     ]
   },
@@ -919,7 +919,7 @@
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/contains"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#contains"
       }
     ]
   },
@@ -932,16 +932,16 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Atom"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Atom"
           },
           {
-            "@id": "http://purl.org/spar/po/Inline"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
           },
           {
-            "@id": "http://purl.org/spar/po/Milestone"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Milestone"
           },
           {
-            "@id": "http://purl.org/spar/po/Popup"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Popup"
           }
         ]
       }
@@ -964,7 +964,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/canContainHeteronymousElements",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements",
     "@type": [
       "http://www.w3.org/2002/07/owl#FunctionalProperty",
       "http://www.w3.org/2002/07/owl#DatatypeProperty"
@@ -977,7 +977,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
-        "@id": "http://purl.org/spar/po/Structured"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Structured"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -1020,7 +1020,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/canContainHeteronymousElements"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements"
       }
     ]
   },
@@ -1049,10 +1049,10 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/s"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#s"
           },
           {
-            "@id": "http://purl.org/spar/po/t"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#t"
           }
         ]
       }
@@ -1070,7 +1070,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/NonStructured",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#NonStructured",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -1088,12 +1088,12 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/po/Pattern"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Pattern"
       }
     ],
     "http://www.w3.org/2002/07/owl#disjointWith": [
       {
-        "@id": "http://purl.org/spar/po/Structured"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Structured"
       }
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
@@ -1111,10 +1111,10 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Container"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
           },
           {
-            "@id": "http://purl.org/spar/po/Popup"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Popup"
           }
         ]
       }
@@ -1127,17 +1127,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -1148,12 +1148,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Record"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Record"
       }
     ]
   },
@@ -1222,7 +1222,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/Inline",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Inline",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -1297,12 +1297,12 @@
     ],
     "http://www.w3.org/2002/07/owl#allValuesFrom": [
       {
-        "@id": "http://purl.org/spar/po/Block"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
       }
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/containsAsHeader"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#containsAsHeader"
       }
     ]
   },
@@ -1323,7 +1323,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/Field",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Field",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -1352,12 +1352,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Block"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
       }
     ]
   },
@@ -1373,7 +1373,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/contains"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#contains"
       }
     ]
   },
@@ -1432,7 +1432,7 @@
     ],
     "http://www.w3.org/2002/07/owl#complementOf": [
       {
-        "@id": "http://purl.org/spar/po/Structured"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Structured"
       }
     ]
   },
@@ -1449,7 +1449,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/isContainedBy"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
       }
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
@@ -1467,7 +1467,7 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Mixed"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Mixed"
           },
           {
             "@id": "_:N7c9ead0da88846819d94fd3295408ae8"
@@ -1510,7 +1510,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/canContainHeteronymousElements"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements"
       }
     ]
   },
@@ -1521,17 +1521,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Field"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Field"
       }
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/Structured",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Structured",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -1549,7 +1549,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/po/Pattern"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Pattern"
       }
     ]
   },
@@ -1572,12 +1572,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Container"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
       }
     ]
   },
@@ -1588,7 +1588,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/isContainedBy"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
       }
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
@@ -1598,7 +1598,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/hasName",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#hasName",
     "@type": [
       "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "http://www.w3.org/2002/07/owl#FunctionalProperty"
@@ -1628,17 +1628,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -1671,17 +1671,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -1724,7 +1724,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/isContainedBy"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
       }
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
@@ -1745,7 +1745,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/contains"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#contains"
       }
     ]
   },
@@ -1756,17 +1756,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Inline"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
       }
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/Atom",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Atom",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -1789,7 +1789,7 @@
     ],
     "http://www.w3.org/2002/07/owl#disjointWith": [
       {
-        "@id": "http://purl.org/spar/po/Field"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Field"
       }
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
@@ -1805,17 +1805,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -1826,17 +1826,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/g"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#g"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -1889,7 +1889,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/Milestone",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Milestone",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -1925,7 +1925,7 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Container"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
           },
           {
             "@id": "_:Na17212e274fb4e10912ee2367a4d5246"
@@ -1978,7 +1978,7 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Container"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
           },
           {
             "@id": "_:N0b0f12373ccc439d8f4498f1920a4523"
@@ -2002,7 +2002,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/contains"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#contains"
       }
     ]
   },
@@ -2015,10 +2015,10 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Container"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
           },
           {
-            "@id": "http://purl.org/spar/po/Popup"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Popup"
           }
         ]
       }
@@ -2033,7 +2033,7 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Bucket"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Bucket"
           },
           {
             "@id": "_:N815ab898336b49f1bb7600582cd70bc7"
@@ -2054,7 +2054,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/canContainHomonymousElements"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#canContainHomonymousElements"
       }
     ]
   },
@@ -2075,12 +2075,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/Table",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Table",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -2125,12 +2125,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Milestone"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Milestone"
       }
     ]
   },
@@ -2146,7 +2146,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/isContainedBy"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
       }
     ]
   },
@@ -2162,7 +2162,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/canContainHomonymousElements"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#canContainHomonymousElements"
       }
     ]
   },
@@ -2175,16 +2175,16 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Block"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
           },
           {
-            "@id": "http://purl.org/spar/po/Container"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
           },
           {
-            "@id": "http://purl.org/spar/po/Field"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Field"
           },
           {
-            "@id": "http://purl.org/spar/po/Meta"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Meta"
           }
         ]
       }
@@ -2245,17 +2245,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -2266,17 +2266,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -2358,12 +2358,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/canContainHomonymousElements"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#canContainHomonymousElements"
       }
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/Popup",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Popup",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -2394,7 +2394,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/Flat",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Flat",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -2412,15 +2412,15 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/po/Textual"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Textual"
       },
       {
-        "@id": "http://purl.org/spar/po/NonStructured"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#NonStructured"
       }
     ],
     "http://www.w3.org/2002/07/owl#disjointWith": [
       {
-        "@id": "http://purl.org/spar/po/Mixed"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Mixed"
       }
     ]
   },
@@ -2463,12 +2463,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Record"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Record"
       }
     ]
   },
@@ -2481,17 +2481,17 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Block"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
           },
           {
-            "@id": "http://purl.org/spar/po/Inline"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
           }
         ]
       }
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/NonTextual",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#NonTextual",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -2509,12 +2509,12 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/po/Pattern"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Pattern"
       }
     ],
     "http://www.w3.org/2002/07/owl#disjointWith": [
       {
-        "@id": "http://purl.org/spar/po/Textual"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Textual"
       }
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
@@ -2548,10 +2548,10 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Block"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
           },
           {
-            "@id": "http://purl.org/spar/po/Inline"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
           }
         ]
       }
@@ -2564,17 +2564,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/p"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#p"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/contains"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#contains"
       }
     ]
   },
@@ -2587,10 +2587,10 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Block"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
           },
           {
-            "@id": "http://purl.org/spar/po/Inline"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
           }
         ]
       }
@@ -2605,7 +2605,7 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Bucket"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Bucket"
           },
           {
             "@id": "_:N7077b837b8a04bd4a9a558a2fed5bc14"
@@ -2637,17 +2637,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -2658,17 +2658,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -2684,7 +2684,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/isContainedBy"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
       }
     ]
   },
@@ -2711,7 +2711,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/isContainedBy"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
       }
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
@@ -2729,7 +2729,7 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Marker"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Marker"
           },
           {
             "@id": "_:N338e45a053354d589729dabbbc71b4cd"
@@ -2747,10 +2747,10 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Block"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
           },
           {
-            "@id": "http://purl.org/spar/po/Inline"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
           }
         ]
       }
@@ -2813,17 +2813,17 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Container"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
           },
           {
-            "@id": "http://purl.org/spar/po/Popup"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Popup"
           }
         ]
       }
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/HeadedContainer",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#HeadedContainer",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -2902,13 +2902,13 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/HeadedContainer"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#HeadedContainer"
           },
           {
-            "@id": "http://purl.org/spar/po/Record"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Record"
           },
           {
-            "@id": "http://purl.org/spar/po/Table"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Table"
           }
         ]
       }
@@ -2921,12 +2921,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Meta"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Meta"
       }
     ]
   },
@@ -2958,7 +2958,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/isContainedBy"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
       }
     ]
   },
@@ -2969,17 +2969,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -3006,12 +3006,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Meta"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Meta"
       }
     ]
   },
@@ -3038,12 +3038,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Pattern"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Pattern"
       }
     ]
   },
@@ -3054,12 +3054,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Table"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Table"
       }
     ]
   },
@@ -3075,7 +3075,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/isContainedBy"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
       }
     ]
   },
@@ -3091,7 +3091,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/isContainedBy"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
       }
     ]
   },
@@ -3112,7 +3112,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/contains",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#contains",
     "@type": [
       "http://www.w3.org/2002/07/owl#ObjectProperty"
     ],
@@ -3124,7 +3124,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
-        "@id": "http://purl.org/spar/po/Structured"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Structured"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -3135,7 +3135,7 @@
     ],
     "http://www.w3.org/2002/07/owl#inverseOf": [
       {
-        "@id": "http://purl.org/spar/po/isContainedBy"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
       }
     ]
   },
@@ -3164,16 +3164,16 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Block"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
           },
           {
-            "@id": "http://purl.org/spar/po/Container"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
           },
           {
-            "@id": "http://purl.org/spar/po/Field"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Field"
           },
           {
-            "@id": "http://purl.org/spar/po/Meta"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Meta"
           }
         ]
       }
@@ -3196,7 +3196,7 @@
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/contains"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#contains"
       }
     ]
   },
@@ -3209,10 +3209,10 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Block"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
           },
           {
-            "@id": "http://purl.org/spar/po/Inline"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
           }
         ]
       }
@@ -3225,17 +3225,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/t"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#t"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -3248,7 +3248,7 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Mixed"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Mixed"
           },
           {
             "@id": "_:N45e022b96cb44c97a9e1897f4538862b"
@@ -3264,17 +3264,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Inline"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
       }
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/containsAsHeader",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#containsAsHeader",
     "@type": [
       "http://www.w3.org/2002/07/owl#ObjectProperty"
     ],
@@ -3292,12 +3292,12 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
       {
-        "@id": "http://purl.org/spar/po/contains"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#contains"
       }
     ],
     "http://www.w3.org/2002/07/owl#inverseOf": [
       {
-        "@id": "http://purl.org/spar/po/isContainedByAsHeader"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedByAsHeader"
       }
     ]
   },
@@ -3348,10 +3348,10 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Container"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
           },
           {
-            "@id": "http://purl.org/spar/po/Popup"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Popup"
           }
         ]
       }
@@ -3364,17 +3364,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -3401,12 +3401,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Container"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
       }
     ]
   },
@@ -3433,7 +3433,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/po/isContainedBy"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
       }
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
@@ -3449,12 +3449,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Textual"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Textual"
       }
     ]
   },
@@ -3481,12 +3481,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Record"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Record"
       }
     ]
   },
@@ -3499,7 +3499,7 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Container"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
           },
           {
             "@id": "_:N2cc5211178394853911d8d961f373f2d"
@@ -3541,7 +3541,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/Mixed",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Mixed",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -3559,10 +3559,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/po/Structured"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Structured"
       },
       {
-        "@id": "http://purl.org/spar/po/Textual"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Textual"
       }
     ]
   },
@@ -3595,7 +3595,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/canContainHomonymousElements",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#canContainHomonymousElements",
     "@type": [
       "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "http://www.w3.org/2002/07/owl#FunctionalProperty"
@@ -3608,7 +3608,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
-        "@id": "http://purl.org/spar/po/Structured"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Structured"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -3640,7 +3640,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/g",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#g",
     "@type": [
       "http://www.w3.org/2003/11/swrl#Variable"
     ]
@@ -3662,13 +3662,13 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/x",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#x",
     "@type": [
       "http://www.w3.org/2003/11/swrl#Variable"
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/z",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#z",
     "@type": [
       "http://www.w3.org/2003/11/swrl#Variable"
     ]
@@ -3696,17 +3696,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/p"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#p"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/contains"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#contains"
       }
     ]
   },
@@ -3717,29 +3717,29 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Block"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
       }
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/p",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#p",
     "@type": [
       "http://www.w3.org/2003/11/swrl#Variable"
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/s",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#s",
     "@type": [
       "http://www.w3.org/2003/11/swrl#Variable"
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/t",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#t",
     "@type": [
       "http://www.w3.org/2003/11/swrl#Variable"
     ]
@@ -3753,7 +3753,7 @@
       {
         "@list": [
           {
-            "@id": "http://purl.org/spar/po/Flat"
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Flat"
           },
           {
             "@id": "_:N42181ac413e04ee4a9387e484beec1f4"
@@ -3763,7 +3763,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/Meta",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Meta",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -3781,7 +3781,7 @@
     ],
     "http://www.w3.org/2002/07/owl#disjointWith": [
       {
-        "@id": "http://purl.org/spar/po/Milestone"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Milestone"
       }
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
@@ -3797,17 +3797,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/z"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#z"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -3834,17 +3834,17 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
       {
-        "@id": "http://purl.org/spar/po/s"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#s"
       }
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/hasName"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#hasName"
       }
     ]
   },
@@ -3855,7 +3855,7 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/p"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#p"
       }
     ],
     "http://www.w3.org/2003/11/swrl#argument2": [
@@ -3865,7 +3865,7 @@
     ],
     "http://www.w3.org/2003/11/swrl#propertyPredicate": [
       {
-        "@id": "http://purl.org/spar/po/canContainHeteronymousElements"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements"
       }
     ]
   },
@@ -3876,12 +3876,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Table"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Table"
       }
     ]
   },
@@ -3934,7 +3934,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/po/isContainedByAsHeader",
+    "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedByAsHeader",
     "@type": [
       "http://www.w3.org/2002/07/owl#ObjectProperty"
     ],
@@ -3952,7 +3952,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
       {
-        "@id": "http://purl.org/spar/po/isContainedBy"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
       }
     ]
   },
@@ -3963,12 +3963,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/y"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#y"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Textual"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Textual"
       }
     ]
   },
@@ -3995,7 +3995,7 @@
     ],
     "http://www.w3.org/2002/07/owl#complementOf": [
       {
-        "@id": "http://purl.org/spar/po/Textual"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Textual"
       }
     ]
   },
@@ -4022,12 +4022,12 @@
     ],
     "http://www.w3.org/2003/11/swrl#argument1": [
       {
-        "@id": "http://purl.org/spar/po/x"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#x"
       }
     ],
     "http://www.w3.org/2003/11/swrl#classPredicate": [
       {
-        "@id": "http://purl.org/spar/po/Field"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Field"
       }
     ]
   }

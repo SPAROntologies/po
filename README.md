@@ -1,6 +1,4 @@
-# Pattern Ontology
-
-This is a copy - with a related change of the main URL of the ontology and of all the entities - of the Pattern Ontology (imported by DoCO) and previously available at http://www.essepuntato.it/2008/12/pattern. It has been imported here in SPAR for guaranteeing its long-term sustainability.
+This is a copy - with a related change of the main URL of the ontology - of the Pattern Ontology (imported by DoCO) and previously available at http://www.essepuntato.it/2008/12/pattern. It has been imported here in SPAR for guaranteeing its long-term sustainability.
 
 The directory `docs` contains all the files related to the ontology, its versions in time, and the related documentations. In particular, it includes:
 
