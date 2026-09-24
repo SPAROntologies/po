@@ -1,0 +1,103 @@
+[
+  {
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Meta",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n        :my-doc-meta a po:Meta ;\n                po:isContainedBy :my-doc-header .\n        "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An element that contains neither other elements nor textual content."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/pattern#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "meta element"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#disjointWith": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Milestone"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b18"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#note": [
+      {
+        "@language": "en",
+        "@value": "\nContrarily to the pattern `po:Milestone`, which was meant to describe markup elements that impact the document because of their location, the main feature of its disjoint sibling is the mere existence, independently from the position it has within the document. \n`po:Meta` elements convey metadata information about the document or part of it, independently of where they are. \nThus, meta elements can be contained only within container elements.\n    "
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b18",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Marker"
+          },
+          {
+            "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b19",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b20"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b20",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Popup"
+          }
+        ]
+      }
+    ]
+  }
+]

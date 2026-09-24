@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vann="http://purl.org/vocab/vann/"
+   xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/pattern#Field">
+    <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2008/12/pattern#"/>
+    <rdfs:label xml:lang="en">field element</rdfs:label>
+    <vann:example>
+        :my-author-name a po:Field ;
+                po:isContainedBy :my-author-header .
+        </vann:example>
+    <rdfs:comment xml:lang="en">Literal metadata or text that is not really part of the document body.</rdfs:comment>
+    <owl:equivalentClass rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b31"/>
+    <skos:note xml:lang="en">
+Its main difference with `po:Meta` is that `po:Field` can contain textual content.
+    </skos:note>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b35">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Popup"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b33">
+    <owl:unionOf rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b34"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b36">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Flat"/>
+    <rdf:rest rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b37"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b31">
+    <owl:intersectionOf rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b36"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b37">
+    <rdf:first rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b32"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b34">
+    <rdf:rest rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b35"/>
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Container"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b32">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/pattern#isContainedBy"/>
+    <owl:allValuesFrom rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b33"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,98 @@
+[
+  {
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Field",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n        :my-author-name a po:Field ;\n                po:isContainedBy :my-author-header .\n        "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Literal metadata or text that is not really part of the document body."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/pattern#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "field element"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b31"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#note": [
+      {
+        "@language": "en",
+        "@value": "\nIts main difference with `po:Meta` is that `po:Field` can contain textual content.\n    "
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b31",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Flat"
+          },
+          {
+            "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b32",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b33"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b33",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Popup"
+          }
+        ]
+      }
+    ]
+  }
+]

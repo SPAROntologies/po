@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vann="http://purl.org/vocab/vann/"
+   xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b46">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Inline"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b44">
+    <owl:unionOf rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b45"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b38">
+    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/pattern#isContainedBy"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <skos:note xml:lang="en">
+Similarly to `po:Inline`, elements following the `po:Milestone` pattern can only be contained within block or inline elements (and consequently they also cannot be used as root elements of documents).
+
+The distinctive characteristic of the pattern `po:Milestone` is the location it assumes within the document.
+    </skos:note>
+    <owl:someValuesFrom rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b39"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b45">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Block"/>
+    <rdf:rest rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b46"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/pattern#Milestone">
+    <owl:equivalentClass rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b42"/>
+    <rdfs:subClassOf rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b38"/>
+    <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2008/12/pattern#"/>
+    <rdfs:label xml:lang="en">milestone element</rdfs:label>
+    <rdfs:comment xml:lang="en">
+An elements that contains neither other elements nor textual content.
+</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <vann:example>
+        :my-page-break a po:Milestone ;
+                po:isContainedBy :my-paragraph .
+        </vann:example>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b39">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b40"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b43">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b44"/>
+    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/pattern#isContainedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b41">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Inline"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b42">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b47"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b48">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b43"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b47">
+    <rdf:rest rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b48"/>
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Marker"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b40">
+    <rdf:rest rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b41"/>
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Block"/>
+  </rdf:Description>
+</rdf:RDF>

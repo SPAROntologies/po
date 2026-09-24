@@ -1,0 +1,142 @@
+[
+  {
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Atom",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n        :my-atom a po:Atom ;\n                po:isContainedBy :my-paragraph .\n        "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Literal text that is part of the document body."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/pattern#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "atom element"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b5"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#disjointWith": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Field"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b9"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#note": [
+      {
+        "@language": "en",
+        "@value": "\nSimilarly to `po:Inline`, elements following the 'atom' pattern can only be contained within block or inline elements (and consequently they also cannot be used as root elements of documents). \nIt can contain textual content and no other elements.\n    "
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b9",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Flat"
+          },
+          {
+            "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b10",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b11"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b11",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b5",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b6"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b6",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
+          }
+        ]
+      }
+    ]
+  }
+]

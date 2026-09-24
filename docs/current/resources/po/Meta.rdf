@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vann="http://purl.org/vocab/vann/"
+   xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b21"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b21">
+    <rdf:rest rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b22"/>
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Container"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b23">
+    <rdf:rest rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b24"/>
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Marker"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b18">
+    <owl:intersectionOf rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b23"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b24">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/pattern#Meta">
+    <rdfs:label xml:lang="en">meta element</rdfs:label>
+    <vann:example>
+        :my-doc-meta a po:Meta ;
+                po:isContainedBy :my-doc-header .
+        </vann:example>
+    <rdfs:comment xml:lang="en">An element that contains neither other elements nor textual content.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:note xml:lang="en">
+Contrarily to the pattern `po:Milestone`, which was meant to describe markup elements that impact the document because of their location, the main feature of its disjoint sibling is the mere existence, independently from the position it has within the document. 
+`po:Meta` elements convey metadata information about the document or part of it, independently of where they are. 
+Thus, meta elements can be contained only within container elements.
+    </skos:note>
+    <owl:equivalentClass rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b18"/>
+    <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2008/12/pattern#"/>
+    <owl:disjointWith rdf:resource="http://www.essepuntato.it/2008/12/pattern#Milestone"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b19">
+    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/pattern#isContainedBy"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b20"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b22">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Popup"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+</rdf:RDF>

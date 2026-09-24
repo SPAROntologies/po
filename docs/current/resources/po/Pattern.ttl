@@ -1,0 +1,23 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+
+po:Pattern a owl:Class ;
+    rdfs:label "pattern-based element"@en ;
+    vann:example """
+        :my-element a po:Pattern .
+        """ ;
+    rdfs:comment """
+An atomic component of a document that is able to capture a recurrent and well knwon structure of a document.
+"""@en ;
+    rdfs:isDefinedBy po: ;
+    rdfs:subClassOf owl:Thing ;
+    vs:term_status reg:statusStable ;
+    skos:note """
+Any entity belonging to this class is compliant with exactly one structural pattern.
+        """@en .
+

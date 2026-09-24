@@ -1,0 +1,35 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+
+po:Milestone a owl:Class ;
+    rdfs:label "milestone element"@en ;
+    vann:example """
+        :my-page-break a po:Milestone ;
+                po:isContainedBy :my-paragraph .
+        """ ;
+    rdfs:comment """
+An elements that contains neither other elements nor textual content.
+"""@en ;
+    rdfs:isDefinedBy po: ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty po:isContainedBy ;
+            owl:someValuesFrom [ a owl:Class ;
+                    owl:unionOf ( po:Block po:Inline ) ] ;
+            skos:note """
+Similarly to `po:Inline`, elements following the `po:Milestone` pattern can only be contained within block or inline elements (and consequently they also cannot be used as root elements of documents).
+
+The distinctive characteristic of the pattern `po:Milestone` is the location it assumes within the document.
+    """@en ] ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( po:Marker [ a owl:Restriction ;
+                        owl:allValuesFrom [ a owl:Class ;
+                                owl:unionOf ( po:Block po:Inline ) ] ;
+                        owl:onProperty po:isContainedBy ] ) ] ;
+    vs:term_status reg:statusStable .
+

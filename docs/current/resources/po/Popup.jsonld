@@ -1,0 +1,180 @@
+[
+  {
+    "@id": "http://www.essepuntato.it/2008/12/pattern#Popup",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n        :my-footnote a po:Popup ;\n                po:isContainedBy :my-paragraph ;\n                po:contains :my-footnote-block .\n        "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A bucket element that is only present within block and inline elements."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/pattern#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "popup element"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b55"
+      },
+      {
+        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b59"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b65"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#note": [
+      {
+        "@language": "en",
+        "@value": "\nPopup elements are used whenever complex structures need to be placed within content elements such as paragraphs.\n    "
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b65",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Bucket"
+          },
+          {
+            "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b66",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b67"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b67",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b55",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b56"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b56",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b59",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b60"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/pattern#contains"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b60",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Field"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Meta"
+          }
+        ]
+      }
+    ]
+  }
+]

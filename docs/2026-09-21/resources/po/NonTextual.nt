@@ -1,0 +1,11 @@
+<http://www.essepuntato.it/2008/12/pattern#NonTextual> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/pattern#Pattern> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b17 <http://www.w3.org/2002/07/owl#complementOf> <http://www.essepuntato.it/2008/12/pattern#Textual> .
+<http://www.essepuntato.it/2008/12/pattern#NonTextual> <http://purl.org/vocab/vann/example> "\n        :my-element-container a po:NonTextual .\n        " .
+<http://www.essepuntato.it/2008/12/pattern#NonTextual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/pattern#NonTextual> <http://www.w3.org/2002/07/owl#equivalentClass> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b17 .
+<http://www.essepuntato.it/2008/12/pattern#NonTextual> <http://www.w3.org/2000/01/rdf-schema#comment> "An element that cannot have textual content in its content model."@en .
+<http://www.essepuntato.it/2008/12/pattern#NonTextual> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.essepuntato.it/2008/12/pattern#Textual> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/pattern#NonTextual> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2008/12/pattern#> .
+<http://www.essepuntato.it/2008/12/pattern#NonTextual> <http://www.w3.org/2000/01/rdf-schema#label> "non-textual element"@en .
+<http://www.essepuntato.it/2008/12/pattern#NonTextual> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .

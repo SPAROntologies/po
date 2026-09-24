@@ -1,10 +1,18 @@
-This is a copy - with a related change of the main URL of the ontology - of the Pattern Ontology (imported by DoCO) and previously available at http://www.essepuntato.it/2008/12/pattern. It has been imported here in SPAR for guaranteeing its long-term sustainability.
+# Pattern Ontology (PO)
 
-The directory `docs` contains all the files related to the ontology, its versions in time, and the related documentations. In particular, it includes:
+The Pattern Ontology (PO) is an OWL 2 DL ontology that formally defines patterns for segmenting a document into atomic components, in order to be manipulated independently and re-flowed in different contexts.
 
-* the `current` directory, where the files of the current version of the ontology are stored;
-* one `yyyy-mm-dd` version directory for each of the versions of the ontology developed.
+**URL:** http://purl.org/spar/po
 
-The `current` directory contains a `.owl` file named after the lowercase ontology acronym, which is the source of the ontology in a particular format between RDF/XML, Turtle, N-triples, or JSON-LD. In addition to this file, the directory includes five other files, named in the same way and with the following extensions specifying each of five different formats: `.xml` (RDF/XML), `.ttl` (Turtle), `.nt` (Ntriple), `.json` (JSON-LD), `.html` (HTML, i.e. the human readable documentation of the ontology). All the images used in the documentation should additionally be included in this `.html` directory.
+**Creators**: [Angelo Di Iorio](https://orcid.org/0000-0002-6893-7452), 
+[Fabio Vitali](https://orcid.org/0000-0002-7562-5203), [Silvio Peroni](http://orcid.org/0000-0003-0530-4305)
 
-The version directories (i.e. `yyyy-mm-dd`) contains the same kinds of files as those included in the `current` directory, but specific for that particular version. However, the `.owl` file should be present only in the `current` directory.
+**Contributors**: [Sebastian Barzaghi](https://orcid.org/0000-0002-0799-1527)
+
+**License:** [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+**Website:** http://www.sparontologies.net/ontologies/po
+
+**Cite as:** Di Iorio, A., Peroni, S., Poggi, F., Vitali, F. (2012). Aﬁrst approach to the automatic recognition ofstructural patterns in XML documents. In Proceedingsof the 2012 ACM symposium on Document Engineering(DocEng 2012): 85-94. DOI: 10.1145/2361354.2361374.
+
+

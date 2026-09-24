@@ -1,0 +1,7 @@
+<http://www.essepuntato.it/2008/12/pattern#Structured> <http://www.w3.org/2000/01/rdf-schema#label> "structured element"@en .
+<http://www.essepuntato.it/2008/12/pattern#Structured> <http://purl.org/vocab/vann/example> "\n        :my-section a po:Structured ;\n                po:contains :my-paragraph .\n        " .
+<http://www.essepuntato.it/2008/12/pattern#Structured> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/pattern#Structured> <http://www.w3.org/2000/01/rdf-schema#comment> "An element that can contain other elements."@en .
+<http://www.essepuntato.it/2008/12/pattern#Structured> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+<http://www.essepuntato.it/2008/12/pattern#Structured> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/pattern#Pattern> .
+<http://www.essepuntato.it/2008/12/pattern#Structured> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2008/12/pattern#> .

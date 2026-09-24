@@ -1,0 +1,9 @@
+<http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.essepuntato.it/2008/12/pattern#Structured> .
+<http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2008/12/pattern#> .
+<http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements> <http://www.w3.org/2000/01/rdf-schema#comment> "An indication whether a hierarchical-based entity contains al least two entities having different names or not."@en .
+<http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+<http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements> <http://purl.org/vocab/vann/example> "\n        :my-record \n                po:canContainHeteronymousElements true .\n        " .
+<http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements> <http://www.w3.org/2000/01/rdf-schema#label> "can contain heteronymous elements"@en .
+<http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .

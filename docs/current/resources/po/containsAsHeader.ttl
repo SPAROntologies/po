@@ -1,0 +1,19 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+
+po:containsAsHeader a owl:ObjectProperty ;
+    rdfs:label "contains as header"@en ;
+    vann:example """
+        :my-section 
+                po:containsAsHeader :my-header-block .
+        """ ;
+    rdfs:comment "The relation between a structured element, containing another generic element as part of its header, and that other element."@en ;
+    rdfs:isDefinedBy po: ;
+    rdfs:subPropertyOf po:contains ;
+    owl:inverseOf po:isContainedByAsHeader ;
+    vs:term_status reg:statusStable .
+

@@ -1,0 +1,47 @@
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Popup> .
+<http://www.essepuntato.it/2008/12/pattern#Inline> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+<http://www.essepuntato.it/2008/12/pattern#Inline> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2008/12/pattern#> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b98 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#contains> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b105 <http://www.w3.org/2002/07/owl#unionOf> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b106 .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b101 .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b104 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#isContainedBy> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/pattern#Inline> <http://www.w3.org/2004/02/skos/core#note> "\nThis class has the same use and content model of the pattern Block, but differing primarily because a) inline elements can contain other elements compliant with the same pattern while block elements cannot, and b) inline elements must always be contained by other block or inline elements and by no other type of element.\n\nThese constraints also imply that inline elements cannot be used as root elements of documents and that the class Block is disjoint with the class Inline (i.e., a markup element cannot be a block and an inline at the same time)."@en .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Block> .
+<http://www.essepuntato.it/2008/12/pattern#Inline> <http://purl.org/vocab/vann/example> "\n        :my-emphasis a po:Inline ;\n                po:isContainedBy :my-paragraph ;\n                po:contains :my-atom-text .\n        " .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b108 <http://www.w3.org/2002/07/owl#intersectionOf> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b113 .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Mixed> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Inline> .
+<http://www.essepuntato.it/2008/12/pattern#Inline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b109 .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Milestone> .
+<http://www.essepuntato.it/2008/12/pattern#Inline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b98 .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b109 <http://www.w3.org/2002/07/owl#allValuesFrom> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b110 .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b110 <http://www.w3.org/2002/07/owl#unionOf> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b111 .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b102 .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b109 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#isContainedBy> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b104 <http://www.w3.org/2002/07/owl#someValuesFrom> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b105 .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Inline> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b107 .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/pattern#Inline> <http://www.w3.org/2002/07/owl#equivalentClass> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b108 .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b98 <http://www.w3.org/2002/07/owl#allValuesFrom> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b99 .
+<http://www.essepuntato.it/2008/12/pattern#Inline> <http://www.w3.org/2000/01/rdf-schema#label> "inline element"@en .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Atom> .
+<http://www.essepuntato.it/2008/12/pattern#Inline> <http://www.w3.org/2000/01/rdf-schema#comment> "An element that organises the document content as a sequence of nestable elements and text nodes, and that can contain other elements compliant with the same pattern."@en .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b99 <http://www.w3.org/2002/07/owl#unionOf> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b100 .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Inline> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b103 .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b112 .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b114 .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Block> .
+<http://www.essepuntato.it/2008/12/pattern#Inline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:nbb8eeaf6fa2b4101bbf5d8c485edaab7b104 .
