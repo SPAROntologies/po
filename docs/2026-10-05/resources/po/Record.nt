@@ -1,0 +1,29 @@
+<http://www.essepuntato.it/2008/12/pattern#Record> <http://www.w3.org/2000/01/rdf-schema#comment> "A container element that can only contain heterogeneous and non repeatable elements."@en .
+<http://www.essepuntato.it/2008/12/pattern#Record> <http://www.w3.org/2000/01/rdf-schema#label> "record element"@en .
+_:n2310ddb3cbc14762a79ca19ea8edb924b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n2310ddb3cbc14762a79ca19ea8edb924b26 .
+_:n2310ddb3cbc14762a79ca19ea8edb924b145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#HeadedContainer> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b26 <http://www.w3.org/2002/07/owl#hasValue> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b30 .
+_:n2310ddb3cbc14762a79ca19ea8edb924b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#canContainHomonymousElements> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Table> .
+<http://www.essepuntato.it/2008/12/pattern#Record> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2008/12/pattern#> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b144 <http://www.w3.org/2002/07/owl#members> _:n2310ddb3cbc14762a79ca19ea8edb924b145 .
+_:n2310ddb3cbc14762a79ca19ea8edb924b26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.essepuntato.it/2008/12/pattern#Record> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b146 .
+<http://www.essepuntato.it/2008/12/pattern#Record> <http://purl.org/vocab/vann/example> "\n        :my-author-record a po:Record ;\n                po:canContainHeteronymousElements true ;\n                po:canContainHomonymousElements false .\n        " .
+_:n2310ddb3cbc14762a79ca19ea8edb924b147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b27 <http://www.w3.org/2002/07/owl#hasValue> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n2310ddb3cbc14762a79ca19ea8edb924b27 .
+_:n2310ddb3cbc14762a79ca19ea8edb924b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Container> .
+<http://www.essepuntato.it/2008/12/pattern#Record> <http://www.w3.org/2002/07/owl#equivalentClass> _:n2310ddb3cbc14762a79ca19ea8edb924b25 .
+_:n2310ddb3cbc14762a79ca19ea8edb924b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b29 .
+<http://www.essepuntato.it/2008/12/pattern#Record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b147 .
+_:n2310ddb3cbc14762a79ca19ea8edb924b146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Record> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b25 <http://www.w3.org/2002/07/owl#intersectionOf> _:n2310ddb3cbc14762a79ca19ea8edb924b28 .

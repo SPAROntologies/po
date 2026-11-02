@@ -1,0 +1,29 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+po:Table a owl:Class ;
+    rdfs:label "table element"@en ;
+    vann:example """
+        :my-list a po:Table ;
+                po:canContainHeteronymousElements false ;
+                po:canContainHomonymousElements true .
+        """ ;
+    rdfs:comment "A container element that must contain only homogeneous elements (but they can be repeated)."@en ;
+    rdfs:isDefinedBy po: ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( po:Container [ a owl:Restriction ;
+                        owl:hasValue false ;
+                        owl:onProperty po:canContainHeteronymousElements ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty po:canContainHomonymousElements ] ) ] ;
+    vs:term_status reg:statusStable .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( po:HeadedContainer po:Record po:Table ) .
+

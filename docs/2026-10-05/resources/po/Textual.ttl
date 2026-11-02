@@ -1,0 +1,17 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+
+po:Textual a owl:Class ;
+    rdfs:label "textual element"@en ;
+    vann:example """
+        :paragraph-text a po:Textual .
+        """ ;
+    rdfs:comment "An element that can have textual content in their content models."@en ;
+    rdfs:isDefinedBy po: ;
+    rdfs:subClassOf po:Pattern ;
+    vs:term_status reg:statusStable .
+

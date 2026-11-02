@@ -1,0 +1,20 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+po:hasName a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "has name"@en ;
+    vann:example """
+        :my-paragraph 
+                po:hasName "p" .
+        """ ;
+    rdfs:comment "The name of a particular element."@en ;
+    rdfs:isDefinedBy po: ;
+    rdfs:range xsd:string ;
+    vs:term_status reg:statusStable .
+

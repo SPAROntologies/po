@@ -1,0 +1,26 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+
+po:HeadedContainer a owl:Class ;
+    rdfs:label "headed-container element"@en ;
+    vann:example """
+        :my-section a po:HeadedContainer ;
+                po:containsAsHeader :my-title ;
+                po:contains :my-para .
+        """ ;
+    rdfs:comment "A container element whose content model needs to begin with one or more block elements (the heading)."@en ;
+    rdfs:isDefinedBy po: ;
+    rdfs:subClassOf [ a owl:Class ;
+            owl:intersectionOf ( po:Container [ a owl:Restriction ;
+                        owl:allValuesFrom po:Block ;
+                        owl:onProperty po:containsAsHeader ] ) ] ;
+    vs:term_status reg:statusStable .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( po:HeadedContainer po:Record po:Table ) .
+
