@@ -7,20 +7,20 @@
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
   <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/pattern#NonTextual">
-    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2008/12/pattern#Pattern"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2008/12/pattern#"/>
     <vann:example>
         :my-element-container a po:NonTextual .
         </vann:example>
-    <owl:equivalentClass rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b17"/>
-    <rdfs:comment xml:lang="en">An element that cannot have textual content in its content model.</rdfs:comment>
     <owl:disjointWith rdf:resource="http://www.essepuntato.it/2008/12/pattern#Textual"/>
-    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2008/12/pattern#"/>
+    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2008/12/pattern#Pattern"/>
     <rdfs:label xml:lang="en">non-textual element</rdfs:label>
     <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
+    <owl:equivalentClass rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b17"/>
+    <rdfs:comment xml:lang="en">An element that cannot have textual content in its content model.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nbb8eeaf6fa2b4101bbf5d8c485edaab7b17">
-    <owl:complementOf rdf:resource="http://www.essepuntato.it/2008/12/pattern#Textual"/>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b17">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:complementOf rdf:resource="http://www.essepuntato.it/2008/12/pattern#Textual"/>
   </rdf:Description>
 </rdf:RDF>

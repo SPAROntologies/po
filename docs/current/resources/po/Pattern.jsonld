@@ -12,7 +12,7 @@
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "\nAn atomic component of a document that is able to capture a recurrent and well knwon structure of a document.\n"
+        "@value": "\nAn atomic component of a document that is able to capture a recurrent and well known structure of a document.\n"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [

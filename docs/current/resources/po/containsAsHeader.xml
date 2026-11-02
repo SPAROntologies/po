@@ -7,16 +7,16 @@
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
   <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/pattern#containsAsHeader">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2008/12/pattern#"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.essepuntato.it/2008/12/pattern#contains"/>
     <rdfs:comment xml:lang="en">The relation between a structured element, containing another generic element as part of its header, and that other element.</rdfs:comment>
+    <owl:inverseOf rdf:resource="http://www.essepuntato.it/2008/12/pattern#isContainedByAsHeader"/>
     <vann:example>
         :my-section 
                 po:containsAsHeader :my-header-block .
         </vann:example>
     <rdfs:label xml:lang="en">contains as header</rdfs:label>
     <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
-    <rdfs:subPropertyOf rdf:resource="http://www.essepuntato.it/2008/12/pattern#contains"/>
-    <owl:inverseOf rdf:resource="http://www.essepuntato.it/2008/12/pattern#isContainedByAsHeader"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
 </rdf:RDF>

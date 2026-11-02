@@ -28,7 +28,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b72"
+        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b72"
       }
     ],
     "http://www.w3.org/2002/07/owl#disjointWith": [
@@ -38,7 +38,7 @@
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b78"
+        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b78"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -54,65 +54,13 @@
     ]
   },
   {
-    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b78",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2002/07/owl#intersectionOf": [
-      {
-        "@list": [
-          {
-            "@id": "http://www.essepuntato.it/2008/12/pattern#Bucket"
-          },
-          {
-            "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b79"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b79",
+    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b72",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
     "http://www.w3.org/2002/07/owl#allValuesFrom": [
       {
-        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b80"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
-      }
-    ]
-  },
-  {
-    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b80",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2002/07/owl#unionOf": [
-      {
-        "@list": [
-          {
-            "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
-          },
-          {
-            "@id": "http://www.essepuntato.it/2008/12/pattern#Popup"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b72",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#allValuesFrom": [
-      {
-        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b73"
+        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b73"
       }
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
@@ -122,7 +70,7 @@
     ]
   },
   {
-    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b73",
+    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b73",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -140,6 +88,58 @@
           },
           {
             "@id": "http://www.essepuntato.it/2008/12/pattern#Meta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b78",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Bucket"
+          },
+          {
+            "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b79"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b79",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b80"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b80",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Popup"
           }
         ]
       }
