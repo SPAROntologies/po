@@ -6,50 +6,50 @@
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
-  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b4">
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    <rdf:first rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b2"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b145">
+  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b145">
     <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#HeadedContainer"/>
-    <rdf:rest rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b146"/>
+    <rdf:rest rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b146"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b1">
+    <owl:intersectionOf rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b2">
+    <owl:allValuesFrom rdf:resource="http://www.essepuntato.it/2008/12/pattern#Block"/>
+    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/pattern#containsAsHeader"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/pattern#HeadedContainer">
-    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2008/12/pattern#"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b1"/>
     <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
+    <rdfs:label xml:lang="en">headed-container element</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2008/12/pattern#"/>
+    <rdfs:comment xml:lang="en">A container element whose content model needs to begin with one or more block elements (the heading).</rdfs:comment>
     <vann:example>
         :my-section a po:HeadedContainer ;
                 po:containsAsHeader :my-title ;
                 po:contains :my-para .
         </vann:example>
-    <rdfs:label xml:lang="en">headed-container element</rdfs:label>
-    <rdfs:comment xml:lang="en">A container element whose content model needs to begin with one or more block elements (the heading).</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b2">
-    <owl:allValuesFrom rdf:resource="http://www.essepuntato.it/2008/12/pattern#Block"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/pattern#containsAsHeader"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b147">
-    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Table"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b1">
-    <owl:intersectionOf rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b3"/>
+    <rdfs:subClassOf rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b1"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b144">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b145"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b3">
-    <rdf:rest rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b4"/>
+  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b3">
+    <rdf:rest rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b4"/>
     <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Container"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b146">
-    <rdf:rest rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b147"/>
+  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b4">
+    <rdf:first rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b2"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b144">
+    <owl:members rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b145"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b146">
+    <rdf:rest rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b147"/>
     <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b147">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Table"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
 </rdf:RDF>
