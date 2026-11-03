@@ -29,7 +29,7 @@ dc:title a owl:AnnotationProperty .
     dc:creator "Angelo Di Iorio (https://orcid.org/0000-0002-6893-7452)"^^xsd:string,
         "Fabio Vitali (https://orcid.org/0000-0002-7562-5203)"^^xsd:string,
         "Silvio Peroni (https://orcid.org/0000-0003-0530-4305)"^^xsd:string ;
-    dc:date "2026-09-21" ;
+    dc:date "2026-10-05" ;
     dc:description """
 The **_Pattern Ontology (PO)_** is an OWL 2 DL ontology that formally defines patterns for segmenting a document into atomic components, in order to be manipulated independently and re-flowed in different contexts.
 
@@ -49,7 +49,7 @@ The prefixes that are used in all the examples provided below are defined as fol
 
 ### Structural decomposition of a document section
 
-With PO, it is possible to represent document elements and how they manifest as patterns occurring within the document's stucture itself.
+With PO, it is possible to represent document elements and how they manifest as patterns occurring within the document's structure itself.
 
 For example, the following example shows how to use PO to model a section defined as a headed container and containing a heading block as its header and a body paragraph block containing inline text and atom elements.
         
@@ -78,7 +78,7 @@ For example, the following example shows how to use PO to model a section define
 
 ## Competency Questions
 
-PO can be used for answering several questions related to the atomic components that form a document accoridng to certain patterns.
+PO can be used for answering several questions related to the atomic components that form a document according to certain patterns.
 In the following subsections, some of them are introduced together with their respective SPARQL queries. 
 
 The prefixes that are used in all the SPARQL queries provided below are defined as follows:
@@ -109,26 +109,27 @@ Which block elements are directly contained within a container?
     dcterms:created "2013-07-16" ;
     dcterms:issued "2013-07-16" ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-21" ;
+    dcterms:modified "2026-10-05" ;
     dcterms:publisher <https://ror.org/00wb4mk85> ;
     dcterms:source <https://github.com/SPAROntologies/po/blob/master/docs/cq.md> ;
     bibo:doi "TBA" ;
     bibo:status <http://purl.org/ontology/bibo/status/published> ;
-    vann:changes """
-* **v1.4.3**: 
-Added new documentation, including annotation properties (e.g., `bibo:doi`, `schema:codeRepository`, etc.), term properties (e.g., `vann:example`, `vs:term_status`, etc.), exemplary competency questions with their respective SPARQL queries, and a Grafoo diagram.
-        """@en ;
+    vann:changes <https://github.com/SPAROntologies/po/blob/master/CHANGELOG.md> ;
     vann:preferredNamespacePrefix "po"@en ;
     vann:preferredNamespaceUri "http://purl.org/spar/po"@en ;
-    owl:backwardCompatibleWith po:2013-07-16 ;
-    owl:priorVersion po:2013-07-16 ;
-    owl:versionIRI po:2026-09-21 ;
-    owl:versionInfo "1.4.3"^^xsd:string ;
-    foaf:logo <https://github.com/SPAROntologies/po/blob/master/spar.png> ;
+    owl:backwardCompatibleWith po:2026-09-21 ;
+    owl:priorVersion po:2026-09-21 ;
+    owl:versionIRI po:2026-10-05 ;
+    owl:versionInfo "1.4.4"^^xsd:string ;
+    foaf:logo <https://github.com/SPAROntologies/sparontologies.github.io/blob/master/static/img/spar/spar-logo.png> ;
     schema:codeRepository <https://github.com/SPAROntologies/po> ;
     schema:image <https://github.com/SPAROntologies/po/blob/master/docs/current/po.png> ;
     schema:includedInDataCatalog <https://fairsharing.org/> ;
-    schema:keywords "document engineering"@en,
+    dc:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+    schema:keywords 
+        "SPAR Ontologies"@en ,
+        "Semantic Publishing and Referencing Ontologies"@en ,
+        "document engineering"@en,
         "documents"@en,
         "scholarly publishing"@en,
         "semantic publishing"@en .
@@ -409,7 +410,7 @@ po:Pattern a owl:Class ;
         :my-element a po:Pattern .
         """ ;
     rdfs:comment """
-An atomic component of a document that is able to capture a recurrent and well knwon structure of a document.
+An atomic component of a document that is able to capture a recurrent and well known structure of a document.
 """@en ;
     rdfs:isDefinedBy po: ;
     rdfs:subClassOf owl:Thing ;

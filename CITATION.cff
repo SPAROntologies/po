@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+title: The Pattern Ontology (PO)
+message: >-
+If you use this software, please cite it using the
+metadata from this file.
+type: software
+authors:
+- given-names: Angelo
+  family-names: Di Iorio
+  orcid: 'https://orcid.org/0000-0002-6893-7452'
+- given-names: Silvio
+  family-names: Peroni
+  orcid: 'https://orcid.org/0000-0003-0530-4305'
+- given-names: Fabio
+  family-names: Vitali
+  orcid: 'https://orcid.org/0000-0002-7562-5203'
+repository-code: 'https://github.com/SPAROntologies/po'
+abstract: The Pattern Ontology (PO) is an OWL 2 DL ontology that formally defines patterns for segmenting a document into atomic components, in order to be manipulated independently and re-flowed in different contexts. 
+keywords:
+- document engineering
+- documents
+- scholarly publishing
+- semantic publishing
+license: CC-BY-4.0
+version: 1.4.4
+date-released: '2026-10-05'
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: "Di Iorio"
+    given-names: "Angelo"
+    orcid: "https://orcid.org/0000-0002-6893-7452"
+  - family-names: "Peroni"
+    given-names: "Silvio"
+    orcid: "https://orcid.org/0000-0003-0530-4305"
+  - family-names: "Poggi"
+    given-names: "Francesco"
+    orcid: "https://orcid.org/0000-0001-6577-5606"
+  - family-names: "Vitali"
+    given-names: "Fabio"
+    orcid: "https://orcid.org/0000-0002-7562-5203"
+  doi: "10.1145/2361354.2361374"
+  collection-title: "Proceedings of the 2012 ACM symposium on Document Engineering (DocEng 2012)"
+  collection-type: "proceedings"
+  title: "A first approach to the automatic recognition of structural patterns in XML documents"
+  year: 2012
+  publisher:
+    name: "Association for Computing Machinery"
+    city: "New York"
+    country: "USA"

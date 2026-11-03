@@ -1,0 +1,35 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+
+po:Block a owl:Class ;
+    rdfs:label "block element"@en ;
+    vann:example """
+        :my-paragraph a po:Block ;
+                po:isContainedBy :my-section ;
+                po:contains :my-span .
+        """ ;
+    rdfs:comment "An element that organises the document content as a sequence of nestable elements and text nodes."@en ;
+    rdfs:isDefinedBy po: ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom [ a owl:Class ;
+                    owl:unionOf ( po:Atom po:Inline po:Milestone po:Popup ) ] ;
+            owl:onProperty po:contains ] ;
+    owl:disjointWith po:Inline ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( po:Mixed [ a owl:Restriction ;
+                        owl:allValuesFrom [ a owl:Class ;
+                                owl:unionOf ( po:Container po:Popup ) ] ;
+                        owl:onProperty po:isContainedBy ] ) ] ;
+    vs:term_status reg:statusStable ;
+    skos:note """
+In particular, elements following this pattern can contain text and other elements compliant with the patterns `po:Inline`, `po:Atom`, `po:Milestones` and `po:Popup`. 
+
+Furthermore, it is a requirement that block elements are contained only by container and popup elements.
+    """@en .
+

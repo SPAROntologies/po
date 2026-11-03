@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:vann="http://purl.org/vocab/vann/"
+   xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b50">
+    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b53">
+    <rdf:rest rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b54"/>
+    <rdf:first rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b50"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b49">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b52"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b145">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#HeadedContainer"/>
+    <rdf:rest rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b146"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b54">
+    <rdf:first rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b51"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/pattern#Table">
+    <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2008/12/pattern#"/>
+    <owl:equivalentClass rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b49"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <vann:example>
+        :my-list a po:Table ;
+                po:canContainHeteronymousElements false ;
+                po:canContainHomonymousElements true .
+        </vann:example>
+    <rdfs:label xml:lang="en">table element</rdfs:label>
+    <rdfs:comment xml:lang="en">A container element that must contain only homogeneous elements (but they can be repeated).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b147">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Table"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b144">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b145"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b51">
+    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/pattern#canContainHomonymousElements"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b52">
+    <rdf:rest rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b53"/>
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Container"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b146">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Record"/>
+    <rdf:rest rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b147"/>
+  </rdf:Description>
+</rdf:RDF>

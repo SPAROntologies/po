@@ -1,0 +1,30 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+
+po:Meta a owl:Class ;
+    rdfs:label "meta element"@en ;
+    vann:example """
+        :my-doc-meta a po:Meta ;
+                po:isContainedBy :my-doc-header .
+        """ ;
+    rdfs:comment "An element that contains neither other elements nor textual content."@en ;
+    rdfs:isDefinedBy po: ;
+    owl:disjointWith po:Milestone ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( po:Marker [ a owl:Restriction ;
+                        owl:onProperty po:isContainedBy ;
+                        owl:someValuesFrom [ a owl:Class ;
+                                owl:unionOf ( po:Container po:Popup ) ] ] ) ] ;
+    vs:term_status reg:statusStable ;
+    skos:note """
+Contrarily to the pattern `po:Milestone`, which was meant to describe markup elements that impact the document because of their location, the main feature of its disjoint sibling is the mere existence, independently from the position it has within the document. 
+`po:Meta` elements convey metadata information about the document or part of it, independently of where they are. 
+Thus, meta elements can be contained only within container elements.
+    """@en .
+
