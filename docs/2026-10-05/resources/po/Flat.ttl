@@ -1,0 +1,20 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+
+po:Flat a owl:Class ;
+    rdfs:label "flat element"@en ;
+    vann:example """
+        :my-flat a po:Flat ;
+                po:hasName "text" .
+        """ ;
+    rdfs:comment "An element that can contain text nodes but no elements."@en ;
+    rdfs:isDefinedBy po: ;
+    rdfs:subClassOf po:NonStructured,
+        po:Textual ;
+    owl:disjointWith po:Mixed ;
+    vs:term_status reg:statusStable .
+

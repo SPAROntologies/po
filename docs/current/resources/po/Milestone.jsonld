@@ -28,12 +28,12 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b38"
+        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b38"
       }
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b42"
+        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b42"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -43,7 +43,7 @@
     ]
   },
   {
-    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b42",
+    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b42",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -54,20 +54,20 @@
             "@id": "http://www.essepuntato.it/2008/12/pattern#Marker"
           },
           {
-            "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b43"
+            "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b43"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b43",
+    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b43",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
     "http://www.w3.org/2002/07/owl#allValuesFrom": [
       {
-        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b44"
+        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b44"
       }
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
@@ -77,7 +77,7 @@
     ]
   },
   {
-    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b44",
+    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b44",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -95,7 +95,7 @@
     ]
   },
   {
-    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b38",
+    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b38",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -106,7 +106,7 @@
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
       {
-        "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b39"
+        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b39"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#note": [
@@ -117,7 +117,7 @@
     ]
   },
   {
-    "@id": "_:nbb8eeaf6fa2b4101bbf5d8c485edaab7b39",
+    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b39",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],

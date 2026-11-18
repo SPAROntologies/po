@@ -1,0 +1,36 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+
+po:Popup a owl:Class ;
+    rdfs:label "popup element"@en ;
+    vann:example """
+        :my-footnote a po:Popup ;
+                po:isContainedBy :my-paragraph ;
+                po:contains :my-footnote-block .
+        """ ;
+    rdfs:comment "A bucket element that is only present within block and inline elements."@en ;
+    rdfs:isDefinedBy po: ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty po:isContainedBy ;
+            owl:someValuesFrom [ a owl:Class ;
+                    owl:unionOf ( po:Block po:Inline ) ] ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom [ a owl:Class ;
+                    owl:unionOf ( po:Block po:Container po:Field po:Meta ) ] ;
+            owl:onProperty po:contains ] ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( po:Bucket [ a owl:Restriction ;
+                        owl:allValuesFrom [ a owl:Class ;
+                                owl:unionOf ( po:Block po:Inline ) ] ;
+                        owl:onProperty po:isContainedBy ] ) ] ;
+    vs:term_status reg:statusStable ;
+    skos:note """
+Popup elements are used whenever complex structures need to be placed within content elements such as paragraphs.
+    """@en .
+

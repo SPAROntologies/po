@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vann="http://purl.org/vocab/vann/"
+   xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/pattern#Field">
+    <rdfs:label xml:lang="en">field element</rdfs:label>
+    <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2008/12/pattern#"/>
+    <skos:note xml:lang="en">
+Its main difference with `po:Meta` is that `po:Field` can contain textual content.
+    </skos:note>
+    <rdfs:comment xml:lang="en">Literal metadata or text that is not really part of the document body.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <vann:example>
+        :my-author-name a po:Field ;
+                po:isContainedBy :my-author-header .
+        </vann:example>
+    <owl:equivalentClass rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b31"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b33">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b34"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b32">
+    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/pattern#isContainedBy"/>
+    <owl:allValuesFrom rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b33"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b34">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Container"/>
+    <rdf:rest rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b35"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b35">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Popup"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b31">
+    <owl:intersectionOf rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b36"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b37">
+    <rdf:first rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b32"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b36">
+    <rdf:rest rdf:nodeID="n2310ddb3cbc14762a79ca19ea8edb924b37"/>
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Flat"/>
+  </rdf:Description>
+</rdf:RDF>

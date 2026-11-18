@@ -1,0 +1,20 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+
+po:NonStructured a owl:Class ;
+    rdfs:label "non-structured element"@en ;
+    vann:example """
+        :my-leaf-node a po:NonStructured .
+        """ ;
+    rdfs:comment "An element that cannot contain other elements."@en ;
+    rdfs:isDefinedBy po: ;
+    rdfs:subClassOf po:Pattern ;
+    owl:disjointWith po:Structured ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:complementOf po:Structured ] ;
+    vs:term_status reg:statusStable .
+

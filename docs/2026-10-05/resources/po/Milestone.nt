@@ -1,0 +1,33 @@
+<http://www.essepuntato.it/2008/12/pattern#Milestone> <http://www.w3.org/2002/07/owl#equivalentClass> _:n2310ddb3cbc14762a79ca19ea8edb924b42 .
+_:n2310ddb3cbc14762a79ca19ea8edb924b42 <http://www.w3.org/2002/07/owl#intersectionOf> _:n2310ddb3cbc14762a79ca19ea8edb924b47 .
+<http://www.essepuntato.it/2008/12/pattern#Milestone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2008/12/pattern#> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Block> .
+<http://www.essepuntato.it/2008/12/pattern#Milestone> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+<http://www.essepuntato.it/2008/12/pattern#Milestone> <http://purl.org/vocab/vann/example> "\n        :my-page-break a po:Milestone ;\n                po:isContainedBy :my-paragraph .\n        " .
+<http://www.essepuntato.it/2008/12/pattern#Milestone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n2310ddb3cbc14762a79ca19ea8edb924b38 .
+<http://www.essepuntato.it/2008/12/pattern#Milestone> <http://www.w3.org/2000/01/rdf-schema#label> "milestone element"@en .
+_:n2310ddb3cbc14762a79ca19ea8edb924b47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b48 .
+_:n2310ddb3cbc14762a79ca19ea8edb924b44 <http://www.w3.org/2002/07/owl#unionOf> _:n2310ddb3cbc14762a79ca19ea8edb924b45 .
+_:n2310ddb3cbc14762a79ca19ea8edb924b38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.essepuntato.it/2008/12/pattern#Milestone> <http://www.w3.org/2000/01/rdf-schema#comment> "\nAn elements that contains neither other elements nor textual content.\n"@en .
+<http://www.essepuntato.it/2008/12/pattern#Milestone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b46 .
+_:n2310ddb3cbc14762a79ca19ea8edb924b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b41 .
+_:n2310ddb3cbc14762a79ca19ea8edb924b38 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#isContainedBy> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Marker> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b38 <http://www.w3.org/2004/02/skos/core#note> "\nSimilarly to `po:Inline`, elements following the `po:Milestone` pattern can only be contained within block or inline elements (and consequently they also cannot be used as root elements of documents).\n\nThe distinctive characteristic of the pattern `po:Milestone` is the location it assumes within the document.\n    "@en .
+_:n2310ddb3cbc14762a79ca19ea8edb924b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Inline> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Inline> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b43 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#isContainedBy> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b39 <http://www.w3.org/2002/07/owl#unionOf> _:n2310ddb3cbc14762a79ca19ea8edb924b40 .
+_:n2310ddb3cbc14762a79ca19ea8edb924b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Block> .
+_:n2310ddb3cbc14762a79ca19ea8edb924b43 <http://www.w3.org/2002/07/owl#allValuesFrom> _:n2310ddb3cbc14762a79ca19ea8edb924b44 .
+_:n2310ddb3cbc14762a79ca19ea8edb924b38 <http://www.w3.org/2002/07/owl#someValuesFrom> _:n2310ddb3cbc14762a79ca19ea8edb924b39 .
+_:n2310ddb3cbc14762a79ca19ea8edb924b48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n2310ddb3cbc14762a79ca19ea8edb924b43 .

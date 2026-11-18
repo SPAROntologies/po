@@ -12,7 +12,7 @@ po:Pattern a owl:Class ;
         :my-element a po:Pattern .
         """ ;
     rdfs:comment """
-An atomic component of a document that is able to capture a recurrent and well knwon structure of a document.
+An atomic component of a document that is able to capture a recurrent and well known structure of a document.
 """@en ;
     rdfs:isDefinedBy po: ;
     rdfs:subClassOf owl:Thing ;

@@ -17,13 +17,13 @@ po:Inline a owl:Class ;
     rdfs:comment "An element that organises the document content as a sequence of nestable elements and text nodes, and that can contain other elements compliant with the same pattern."@en ;
     rdfs:isDefinedBy po: ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:onProperty po:isContainedBy ;
-            owl:someValuesFrom [ a owl:Class ;
-                    owl:unionOf ( po:Block po:Inline ) ] ],
-        [ a owl:Restriction ;
             owl:allValuesFrom [ a owl:Class ;
                     owl:unionOf ( po:Atom po:Inline po:Milestone po:Popup ) ] ;
-            owl:onProperty po:contains ] ;
+            owl:onProperty po:contains ],
+        [ a owl:Restriction ;
+            owl:onProperty po:isContainedBy ;
+            owl:someValuesFrom [ a owl:Class ;
+                    owl:unionOf ( po:Block po:Inline ) ] ] ;
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( po:Mixed [ a owl:Restriction ;
                         owl:allValuesFrom [ a owl:Class ;
