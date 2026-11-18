@@ -12,7 +12,7 @@ po:Mixed a owl:Class ;
                 po:contains :link .
         """ ;
     rdfs:comment "An element that can contain other elements and text nodes."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf po:Structured,
         po:Textual ;
     vs:term_status reg:statusStable .

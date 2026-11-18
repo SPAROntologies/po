@@ -17,7 +17,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://www.essepuntato.it/2008/12/pattern#"
+        "@id": "http://purl.org/spar/po"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -28,15 +28,15 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b59"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b59"
       },
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b55"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b55"
       }
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b65"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b65"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -52,65 +52,13 @@
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b65",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2002/07/owl#intersectionOf": [
-      {
-        "@list": [
-          {
-            "@id": "http://www.essepuntato.it/2008/12/pattern#Bucket"
-          },
-          {
-            "@id": "_:n27f50dd15b7c417789d400bde3c61873b66"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b66",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b59",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
     "http://www.w3.org/2002/07/owl#allValuesFrom": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b67"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
-      }
-    ]
-  },
-  {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b67",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2002/07/owl#unionOf": [
-      {
-        "@list": [
-          {
-            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
-          },
-          {
-            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b59",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#allValuesFrom": [
-      {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b60"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b60"
       }
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
@@ -120,7 +68,7 @@
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b60",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b60",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -144,7 +92,7 @@
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b55",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b55",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -155,12 +103,64 @@
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b56"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b56"
       }
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b56",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b56",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b65",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Bucket"
+          },
+          {
+            "@id": "_:n9dd00859f25a410db56bbaed00a45169b66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b66",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b67"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b67",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],

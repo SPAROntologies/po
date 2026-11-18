@@ -14,7 +14,7 @@ po:Container a owl:Class ;
                 po:contains :section-1, :section-2 .
         """ ;
     rdfs:comment "An element concerning the structural organization of a document."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:allValuesFrom [ a owl:Class ;
                     owl:unionOf ( po:Block po:Container po:Field po:Meta ) ] ;

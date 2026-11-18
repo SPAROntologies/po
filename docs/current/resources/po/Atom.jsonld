@@ -17,7 +17,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://www.essepuntato.it/2008/12/pattern#"
+        "@id": "http://purl.org/spar/po"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -28,7 +28,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b5"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b5"
       }
     ],
     "http://www.w3.org/2002/07/owl#disjointWith": [
@@ -38,7 +38,7 @@
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b9"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b9"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b5",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b5",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -65,12 +65,12 @@
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b6"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b6"
       }
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b6",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b6",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -88,7 +88,7 @@
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b9",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b9",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -99,20 +99,20 @@
             "@id": "http://www.essepuntato.it/2008/12/pattern#Flat"
           },
           {
-            "@id": "_:n27f50dd15b7c417789d400bde3c61873b10"
+            "@id": "_:n9dd00859f25a410db56bbaed00a45169b10"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b10",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b10",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
     "http://www.w3.org/2002/07/owl#allValuesFrom": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b11"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b11"
       }
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
@@ -122,7 +122,7 @@
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b11",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b11",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],

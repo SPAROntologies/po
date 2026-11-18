@@ -12,6 +12,6 @@ po:isContainedBy a owl:ObjectProperty ;
                 po:isContainedBy :my-container .
         """ ;
     rdfs:comment "An element that is contained by another structured element."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     vs:term_status reg:statusStable .
 

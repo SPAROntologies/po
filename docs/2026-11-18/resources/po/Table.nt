@@ -1,0 +1,29 @@
+<http://www.essepuntato.it/2008/12/pattern#Table> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n9dd00859f25a410db56bbaed00a45169b144 <http://www.w3.org/2002/07/owl#members> _:n9dd00859f25a410db56bbaed00a45169b145 .
+_:n9dd00859f25a410db56bbaed00a45169b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n9dd00859f25a410db56bbaed00a45169b52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n9dd00859f25a410db56bbaed00a45169b53 .
+_:n9dd00859f25a410db56bbaed00a45169b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n9dd00859f25a410db56bbaed00a45169b51 .
+_:n9dd00859f25a410db56bbaed00a45169b52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Container> .
+<http://www.essepuntato.it/2008/12/pattern#Table> <http://www.w3.org/2000/01/rdf-schema#label> "table element"@en .
+<http://www.essepuntato.it/2008/12/pattern#Table> <http://www.w3.org/2000/01/rdf-schema#comment> "A container element that must contain only homogeneous elements (but they can be repeated)."@en .
+_:n9dd00859f25a410db56bbaed00a45169b144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+<http://www.essepuntato.it/2008/12/pattern#Table> <http://www.w3.org/2002/07/owl#equivalentClass> _:n9dd00859f25a410db56bbaed00a45169b49 .
+_:n9dd00859f25a410db56bbaed00a45169b146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n9dd00859f25a410db56bbaed00a45169b147 .
+<http://www.essepuntato.it/2008/12/pattern#Table> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/po> .
+_:n9dd00859f25a410db56bbaed00a45169b50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n9dd00859f25a410db56bbaed00a45169b145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#HeadedContainer> .
+_:n9dd00859f25a410db56bbaed00a45169b146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Record> .
+_:n9dd00859f25a410db56bbaed00a45169b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n9dd00859f25a410db56bbaed00a45169b54 .
+_:n9dd00859f25a410db56bbaed00a45169b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n9dd00859f25a410db56bbaed00a45169b49 <http://www.w3.org/2002/07/owl#intersectionOf> _:n9dd00859f25a410db56bbaed00a45169b52 .
+_:n9dd00859f25a410db56bbaed00a45169b51 <http://www.w3.org/2002/07/owl#hasValue> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.essepuntato.it/2008/12/pattern#Table> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+_:n9dd00859f25a410db56bbaed00a45169b147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Table> .
+_:n9dd00859f25a410db56bbaed00a45169b50 <http://www.w3.org/2002/07/owl#hasValue> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:n9dd00859f25a410db56bbaed00a45169b145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n9dd00859f25a410db56bbaed00a45169b146 .
+_:n9dd00859f25a410db56bbaed00a45169b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n9dd00859f25a410db56bbaed00a45169b51 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#canContainHomonymousElements> .
+<http://www.essepuntato.it/2008/12/pattern#Table> <http://purl.org/vocab/vann/example> "\n        :my-list a po:Table ;\n                po:canContainHeteronymousElements false ;\n                po:canContainHomonymousElements true .\n        " .
+_:n9dd00859f25a410db56bbaed00a45169b50 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements> .
+_:n9dd00859f25a410db56bbaed00a45169b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n9dd00859f25a410db56bbaed00a45169b50 .
+_:n9dd00859f25a410db56bbaed00a45169b147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .

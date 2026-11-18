@@ -16,7 +16,7 @@ po:Milestone a owl:Class ;
     rdfs:comment """
 An elements that contains neither other elements nor textual content.
 """@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty po:isContainedBy ;
             owl:someValuesFrom [ a owl:Class ;

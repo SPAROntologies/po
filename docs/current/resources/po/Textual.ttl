@@ -11,7 +11,7 @@ po:Textual a owl:Class ;
         :paragraph-text a po:Textual .
         """ ;
     rdfs:comment "An element that can have textual content in their content models."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf po:Pattern ;
     vs:term_status reg:statusStable .
 

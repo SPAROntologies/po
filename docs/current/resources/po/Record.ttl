@@ -15,7 +15,7 @@ po:Record a owl:Class ;
                 po:canContainHomonymousElements false .
         """ ;
     rdfs:comment "A container element that can only contain heterogeneous and non repeatable elements."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( po:Container [ a owl:Restriction ;
                         owl:hasValue true ;

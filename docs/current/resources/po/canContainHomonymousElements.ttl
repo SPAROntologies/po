@@ -15,7 +15,7 @@ po:canContainHomonymousElements a owl:DatatypeProperty,
         """ ;
     rdfs:comment "An indication whether a hierarchical-based entity contains al least two entities that share the same name or not."@en ;
     rdfs:domain po:Structured ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:range xsd:boolean ;
     vs:term_status reg:statusStable .
 

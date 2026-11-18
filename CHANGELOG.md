@@ -1,5 +1,7 @@
 # Changelog
 
+* **v1.4.5**:
+Added explicit declarations of annotation properties used.
 * **v1.4.4**:
 Added new documentation files to the repository (e.g., the `CITATION.cff` file) and refactored some components (e.g., `main.py` changed into `validate.py`).
 * **v1.4.3**: 

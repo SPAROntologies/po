@@ -12,7 +12,7 @@ po:isContainedByAsHeader a owl:ObjectProperty ;
                 po:isContainedByAsHeader :my-section .
         """ ;
     rdfs:comment "The relation between an element, contained by another structured element as part of its header, and that other element."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subPropertyOf po:isContainedBy ;
     vs:term_status reg:statusStable .
 

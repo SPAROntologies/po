@@ -18,7 +18,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://www.essepuntato.it/2008/12/pattern#"
+        "@id": "http://purl.org/spar/po"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [

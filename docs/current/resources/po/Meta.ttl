@@ -14,7 +14,7 @@ po:Meta a owl:Class ;
                 po:isContainedBy :my-doc-header .
         """ ;
     rdfs:comment "An element that contains neither other elements nor textual content."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     owl:disjointWith po:Milestone ;
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( po:Marker [ a owl:Restriction ;

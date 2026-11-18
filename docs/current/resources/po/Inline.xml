@@ -8,93 +8,93 @@
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
   <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/pattern#Inline">
-    <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
-    <owl:equivalentClass rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b108"/>
+    <owl:equivalentClass rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b108"/>
     <skos:note xml:lang="en">
 This class has the same use and content model of the pattern Block, but differing primarily because a) inline elements can contain other elements compliant with the same pattern while block elements cannot, and b) inline elements must always be contained by other block or inline elements and by no other type of element.
 
 These constraints also imply that inline elements cannot be used as root elements of documents and that the class Block is disjoint with the class Inline (i.e., a markup element cannot be a block and an inline at the same time).</skos:note>
+    <rdfs:label xml:lang="en">inline element</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b98"/>
+    <rdfs:subClassOf rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b102"/>
+    <rdfs:comment xml:lang="en">An element that organises the document content as a sequence of nestable elements and text nodes, and that can contain other elements compliant with the same pattern.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <vann:example>
         :my-emphasis a po:Inline ;
                 po:isContainedBy :my-paragraph ;
                 po:contains :my-atom-text .
         </vann:example>
-    <rdfs:subClassOf rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b98"/>
-    <rdfs:subClassOf rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b102"/>
-    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2008/12/pattern#"/>
-    <rdfs:comment xml:lang="en">An element that organises the document content as a sequence of nestable elements and text nodes, and that can contain other elements compliant with the same pattern.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/po"/>
+    <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b99">
+    <owl:unionOf rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b100"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label xml:lang="en">inline element</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b110">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b111"/>
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b111">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Block"/>
+    <rdf:rest rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b112"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b107">
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Popup"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b98">
-    <owl:someValuesFrom rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b99"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b109">
+    <owl:allValuesFrom rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b110"/>
     <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/pattern#isContainedBy"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b113">
-    <rdf:rest rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b114"/>
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b103">
+    <owl:unionOf rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b104"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b113">
+    <rdf:rest rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b114"/>
     <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Mixed"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b104">
-    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Atom"/>
-    <rdf:rest rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b105"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b99">
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b108">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b100"/>
+    <owl:intersectionOf rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b113"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b105">
-    <rdf:rest rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b106"/>
-    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Inline"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b103">
-    <owl:unionOf rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b104"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b101">
-    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Inline"/>
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b107">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Popup"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b102">
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b98">
+    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/pattern#isContainedBy"/>
+    <owl:someValuesFrom rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b99"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b102">
     <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/pattern#contains"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:allValuesFrom rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b103"/>
+    <owl:allValuesFrom rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b103"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b112">
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b106">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Milestone"/>
+    <rdf:rest rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b107"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b114">
+    <rdf:first rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b109"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b104">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Atom"/>
+    <rdf:rest rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b105"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b110">
+    <owl:unionOf rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b111"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b101">
     <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Inline"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b109">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:allValuesFrom rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b110"/>
-    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/pattern#isContainedBy"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b100">
-    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Block"/>
-    <rdf:rest rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b101"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b106">
-    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Milestone"/>
-    <rdf:rest rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b107"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b114">
-    <rdf:first rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b109"/>
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b112">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Inline"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b108">
-    <owl:intersectionOf rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b113"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b111">
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b100">
+    <rdf:rest rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b101"/>
     <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Block"/>
-    <rdf:rest rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b112"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b105">
+    <rdf:rest rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b106"/>
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/pattern#Inline"/>
   </rdf:Description>
 </rdf:RDF>

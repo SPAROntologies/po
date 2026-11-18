@@ -23,13 +23,57 @@ dc:description a owl:AnnotationProperty .
 
 dc:title a owl:AnnotationProperty .
 
+bibo:doi a owl:AnnotationProperty .
+
+bibo:status a owl:AnnotationProperty .
+
+dc:contributor a owl:AnnotationProperty .
+
+dc:language a owl:AnnotationProperty .
+
+dcterms:bibliographicCitation a owl:AnnotationProperty .
+
+dcterms:created a owl:AnnotationProperty .
+
+dcterms:issued a owl:AnnotationProperty .
+
+dcterms:license a owl:AnnotationProperty .
+
+dcterms:modified a owl:AnnotationProperty .
+
+dcterms:publisher a owl:AnnotationProperty .
+
+dcterms:source a owl:AnnotationProperty .
+
+foaf:logo a owl:AnnotationProperty .
+
+schema:codeRepository a owl:AnnotationProperty .
+
+schema:image a owl:AnnotationProperty .
+
+schema:includedInDataCatalog a owl:AnnotationProperty .
+
+schema:keywords a owl:AnnotationProperty .
+
+skos:note a owl:AnnotationProperty .
+
+vann:changes a owl:AnnotationProperty .
+
+vann:example a owl:AnnotationProperty .
+
+vann:preferredNamespacePrefix a owl:AnnotationProperty .
+
+vann:preferredNamespaceUri a owl:AnnotationProperty .
+
+vs:term_status a owl:AnnotationProperty .
+
 <http://purl.org/spar/po> a owl:Ontology ;
     rdfs:label "Pattern Ontology (PO)"@en ;
     dc:contributor "Sebastian Barzaghi (https://orcid.org/0000-0002-0799-1527)"^^xsd:string ;
     dc:creator "Angelo Di Iorio (https://orcid.org/0000-0002-6893-7452)"^^xsd:string,
         "Fabio Vitali (https://orcid.org/0000-0002-7562-5203)"^^xsd:string,
         "Silvio Peroni (https://orcid.org/0000-0003-0530-4305)"^^xsd:string ;
-    dc:date "2026-10-05" ;
+    dc:date "2026-11-18" ;
     dc:description """
 The **_Pattern Ontology (PO)_** is an OWL 2 DL ontology that formally defines patterns for segmenting a document into atomic components, in order to be manipulated independently and re-flowed in different contexts.
 
@@ -109,7 +153,7 @@ Which block elements are directly contained within a container?
     dcterms:created "2013-07-16" ;
     dcterms:issued "2013-07-16" ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-05" ;
+    dcterms:modified "2026-11-18" ;
     dcterms:publisher <https://ror.org/00wb4mk85> ;
     dcterms:source <https://github.com/SPAROntologies/po/blob/master/docs/cq.md> ;
     bibo:doi "TBA" ;
@@ -117,10 +161,10 @@ Which block elements are directly contained within a container?
     vann:changes <https://github.com/SPAROntologies/po/blob/master/CHANGELOG.md> ;
     vann:preferredNamespacePrefix "po"@en ;
     vann:preferredNamespaceUri "http://purl.org/spar/po"@en ;
-    owl:backwardCompatibleWith po:2026-09-21 ;
-    owl:priorVersion po:2026-09-21 ;
-    owl:versionIRI po:2026-10-05 ;
-    owl:versionInfo "1.4.4"^^xsd:string ;
+    owl:backwardCompatibleWith po:2026-10-05 ;
+    owl:priorVersion po:2026-10-05 ;
+    owl:versionIRI po:2026-11-18 ;
+    owl:versionInfo "1.4.5"^^xsd:string ;
     foaf:logo <https://github.com/SPAROntologies/sparontologies.github.io/blob/master/static/img/spar/spar-logo.png> ;
     schema:codeRepository <https://github.com/SPAROntologies/po> ;
     schema:image <https://github.com/SPAROntologies/po/blob/master/docs/current/po.png> ;
@@ -128,10 +172,10 @@ Which block elements are directly contained within a container?
     dc:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
     schema:keywords 
         "SPAR Ontologies"@en ,
-        "Semantic Publishing and Referencing Ontologies"@en ,
+        "OWL ontology"@en ,
         "document engineering"@en,
         "documents"@en,
-        "scholarly publishing"@en,
+        "scholarly communication"@en,
         "semantic publishing"@en .
 
 rdfs:comment a owl:AnnotationProperty .
@@ -148,7 +192,7 @@ po:HeadedContainer a owl:Class ;
                 po:contains :my-para .
         """ ;
     rdfs:comment "A container element whose content model needs to begin with one or more block elements (the heading)."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf [ a owl:Class ;
             owl:intersectionOf ( po:Container [ a owl:Restriction ;
                         owl:allValuesFrom po:Block ;
@@ -162,7 +206,7 @@ po:containsAsHeader a owl:ObjectProperty ;
                 po:containsAsHeader :my-header-block .
         """ ;
     rdfs:comment "The relation between a structured element, containing another generic element as part of its header, and that other element."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subPropertyOf po:contains ;
     owl:inverseOf po:isContainedByAsHeader ;
     vs:term_status reg:statusStable .
@@ -174,7 +218,7 @@ po:isContainedByAsHeader a owl:ObjectProperty ;
                 po:isContainedByAsHeader :my-section .
         """ ;
     rdfs:comment "The relation between an element, contained by another structured element as part of its header, and that other element."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subPropertyOf po:isContainedBy ;
     vs:term_status reg:statusStable .
 
@@ -187,7 +231,7 @@ po:Atom a owl:Class ;
                 po:isContainedBy :my-paragraph .
         """ ;
     rdfs:comment "Literal text that is part of the document body."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty po:isContainedBy ;
             owl:someValuesFrom [ a owl:Class ;
@@ -211,7 +255,7 @@ po:Bucket a owl:Class ;
                 po:contains :item-1, :item-2 .
         """ ;
     rdfs:comment "An element that can contain other elements but no text nodes."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf po:NonTextual,
         po:Structured ;
     owl:disjointWith po:Marker ;
@@ -224,7 +268,7 @@ po:Flat a owl:Class ;
                 po:hasName "text" .
         """ ;
     rdfs:comment "An element that can contain text nodes but no elements."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf po:NonStructured,
         po:Textual ;
     owl:disjointWith po:Mixed ;
@@ -236,7 +280,7 @@ po:NonStructured a owl:Class ;
         :my-leaf-node a po:NonStructured .
         """ ;
     rdfs:comment "An element that cannot contain other elements."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf po:Pattern ;
     owl:disjointWith po:Structured ;
     owl:equivalentClass [ a owl:Class ;
@@ -249,7 +293,7 @@ po:NonTextual a owl:Class ;
         :my-element-container a po:NonTextual .
         """ ;
     rdfs:comment "An element that cannot have textual content in its content model."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf po:Pattern ;
     owl:disjointWith po:Textual ;
     owl:equivalentClass [ a owl:Class ;
@@ -275,7 +319,7 @@ po:Marker a owl:Class ;
                 po:hasName "br" .
         """ ;
     rdfs:comment "An element that can contain neither text nodes nor elements."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf po:NonStructured,
         po:NonTextual ;
     vs:term_status reg:statusStable .
@@ -287,7 +331,7 @@ po:Mixed a owl:Class ;
                 po:contains :link .
         """ ;
     rdfs:comment "An element that can contain other elements and text nodes."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf po:Structured,
         po:Textual ;
     vs:term_status reg:statusStable .
@@ -303,7 +347,7 @@ po:Meta a owl:Class ;
                 po:isContainedBy :my-doc-header .
         """ ;
     rdfs:comment "An element that contains neither other elements nor textual content."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     owl:disjointWith po:Milestone ;
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( po:Marker [ a owl:Restriction ;
@@ -325,7 +369,7 @@ po:Record a owl:Class ;
                 po:canContainHomonymousElements false .
         """ ;
     rdfs:comment "A container element that can only contain heterogeneous and non repeatable elements."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( po:Container [ a owl:Restriction ;
                         owl:hasValue true ;
@@ -343,7 +387,7 @@ po:canContainHeteronymousElements a owl:DatatypeProperty,
         """ ;
     rdfs:comment "An indication whether a hierarchical-based entity contains al least two entities having different names or not."@en ;
     rdfs:domain po:Structured ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:range xsd:boolean ;
     vs:term_status reg:statusStable .
 
@@ -356,7 +400,7 @@ po:canContainHomonymousElements a owl:DatatypeProperty,
         """ ;
     rdfs:comment "An indication whether a hierarchical-based entity contains al least two entities that share the same name or not."@en ;
     rdfs:domain po:Structured ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:range xsd:boolean ;
     vs:term_status reg:statusStable .
 
@@ -367,7 +411,7 @@ po:Field a owl:Class ;
                 po:isContainedBy :my-author-header .
         """ ;
     rdfs:comment "Literal metadata or text that is not really part of the document body."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( po:Flat [ a owl:Restriction ;
                         owl:allValuesFrom [ a owl:Class ;
@@ -387,7 +431,7 @@ po:Milestone a owl:Class ;
     rdfs:comment """
 An elements that contains neither other elements nor textual content.
 """@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty po:isContainedBy ;
             owl:someValuesFrom [ a owl:Class ;
@@ -412,7 +456,7 @@ po:Pattern a owl:Class ;
     rdfs:comment """
 An atomic component of a document that is able to capture a recurrent and well known structure of a document.
 """@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf owl:Thing ;
     vs:term_status reg:statusStable ;
     skos:note """
@@ -427,7 +471,7 @@ po:Table a owl:Class ;
                 po:canContainHomonymousElements true .
         """ ;
     rdfs:comment "A container element that must contain only homogeneous elements (but they can be repeated)."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( po:Container [ a owl:Restriction ;
                         owl:hasValue false ;
@@ -442,7 +486,7 @@ po:Textual a owl:Class ;
         :paragraph-text a po:Textual .
         """ ;
     rdfs:comment "An element that can have textual content in their content models."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf po:Pattern ;
     vs:term_status reg:statusStable .
 
@@ -454,7 +498,7 @@ po:Popup a owl:Class ;
                 po:contains :my-footnote-block .
         """ ;
     rdfs:comment "A bucket element that is only present within block and inline elements."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty po:isContainedBy ;
             owl:someValuesFrom [ a owl:Class ;
@@ -480,7 +524,7 @@ po:Structured a owl:Class ;
                 po:contains :my-paragraph .
         """ ;
     rdfs:comment "An element that can contain other elements."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf po:Pattern ;
     vs:term_status reg:statusStable .
 
@@ -491,7 +535,7 @@ po:Container a owl:Class ;
                 po:contains :section-1, :section-2 .
         """ ;
     rdfs:comment "An element concerning the structural organization of a document."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:allValuesFrom [ a owl:Class ;
                     owl:unionOf ( po:Block po:Container po:Field po:Meta ) ] ;
@@ -517,7 +561,7 @@ po:contains a owl:ObjectProperty ;
         """ ;
     rdfs:comment "The relation between a structured element containing another generic element, and that other element."@en ;
     rdfs:domain po:Structured ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     owl:inverseOf po:isContainedBy ;
     vs:term_status reg:statusStable .
 
@@ -529,7 +573,7 @@ po:Block a owl:Class ;
                 po:contains :my-span .
         """ ;
     rdfs:comment "An element that organises the document content as a sequence of nestable elements and text nodes."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:allValuesFrom [ a owl:Class ;
                     owl:unionOf ( po:Atom po:Inline po:Milestone po:Popup ) ] ;
@@ -555,7 +599,7 @@ po:Inline a owl:Class ;
                 po:contains :my-atom-text .
         """ ;
     rdfs:comment "An element that organises the document content as a sequence of nestable elements and text nodes, and that can contain other elements compliant with the same pattern."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty po:isContainedBy ;
             owl:someValuesFrom [ a owl:Class ;
@@ -582,7 +626,7 @@ po:isContainedBy a owl:ObjectProperty ;
                 po:isContainedBy :my-container .
         """ ;
     rdfs:comment "An element that is contained by another structured element."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     vs:term_status reg:statusStable .
 
 po:s a swrl:Variable .
@@ -597,7 +641,7 @@ po:hasName a owl:DatatypeProperty,
                 po:hasName "p" .
         """ ;
     rdfs:comment "The name of a particular element."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:range xsd:string ;
     vs:term_status reg:statusStable .
 

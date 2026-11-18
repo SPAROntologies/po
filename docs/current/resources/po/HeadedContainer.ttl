@@ -14,7 +14,7 @@ po:HeadedContainer a owl:Class ;
                 po:contains :my-para .
         """ ;
     rdfs:comment "A container element whose content model needs to begin with one or more block elements (the heading)."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf [ a owl:Class ;
             owl:intersectionOf ( po:Container [ a owl:Restriction ;
                         owl:allValuesFrom po:Block ;

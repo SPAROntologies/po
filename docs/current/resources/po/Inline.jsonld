@@ -17,7 +17,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://www.essepuntato.it/2008/12/pattern#"
+        "@id": "http://purl.org/spar/po"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -28,15 +28,15 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b98"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b98"
       },
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b102"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b102"
       }
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b108"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b108"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -52,7 +52,7 @@
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b108",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b108",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -63,20 +63,20 @@
             "@id": "http://www.essepuntato.it/2008/12/pattern#Mixed"
           },
           {
-            "@id": "_:n27f50dd15b7c417789d400bde3c61873b109"
+            "@id": "_:n9dd00859f25a410db56bbaed00a45169b109"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b109",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b109",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
     "http://www.w3.org/2002/07/owl#allValuesFrom": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b110"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b110"
       }
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
@@ -86,7 +86,7 @@
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b110",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b110",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -104,7 +104,7 @@
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b98",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b98",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -115,12 +115,12 @@
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b99"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b99"
       }
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b99",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b99",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -138,13 +138,13 @@
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b102",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b102",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
     "http://www.w3.org/2002/07/owl#allValuesFrom": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b103"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b103"
       }
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
@@ -154,7 +154,7 @@
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b103",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b103",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],

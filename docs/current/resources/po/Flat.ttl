@@ -12,7 +12,7 @@ po:Flat a owl:Class ;
                 po:hasName "text" .
         """ ;
     rdfs:comment "An element that can contain text nodes but no elements."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf po:NonStructured,
         po:Textual ;
     owl:disjointWith po:Mixed ;

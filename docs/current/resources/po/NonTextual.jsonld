@@ -17,7 +17,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://www.essepuntato.it/2008/12/pattern#"
+        "@id": "http://purl.org/spar/po"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -38,7 +38,7 @@
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b17"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b17"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -48,7 +48,7 @@
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b17",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b17",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],

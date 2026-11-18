@@ -12,7 +12,7 @@ po:containsAsHeader a owl:ObjectProperty ;
                 po:containsAsHeader :my-header-block .
         """ ;
     rdfs:comment "The relation between a structured element, containing another generic element as part of its header, and that other element."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subPropertyOf po:contains ;
     owl:inverseOf po:isContainedByAsHeader ;
     vs:term_status reg:statusStable .

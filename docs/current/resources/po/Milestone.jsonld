@@ -17,7 +17,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://www.essepuntato.it/2008/12/pattern#"
+        "@id": "http://purl.org/spar/po"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -28,12 +28,12 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b38"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b38"
       }
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b42"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b42"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -43,41 +43,29 @@
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b42",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2002/07/owl#intersectionOf": [
-      {
-        "@list": [
-          {
-            "@id": "http://www.essepuntato.it/2008/12/pattern#Marker"
-          },
-          {
-            "@id": "_:n27f50dd15b7c417789d400bde3c61873b43"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b43",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b38",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#allValuesFrom": [
-      {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b44"
-      }
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
         "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
       }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b39"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#note": [
+      {
+        "@language": "en",
+        "@value": "\nSimilarly to `po:Inline`, elements following the `po:Milestone` pattern can only be contained within block or inline elements (and consequently they also cannot be used as root elements of documents).\n\nThe distinctive characteristic of the pattern `po:Milestone` is the location it assumes within the document.\n    "
+      }
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b44",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b39",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -95,29 +83,41 @@
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b38",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b42",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Marker"
+          },
+          {
+            "@id": "_:n9dd00859f25a410db56bbaed00a45169b43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b43",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b44"
+      }
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
         "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
       }
-    ],
-    "http://www.w3.org/2002/07/owl#someValuesFrom": [
-      {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b39"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#note": [
-      {
-        "@language": "en",
-        "@value": "\nSimilarly to `po:Inline`, elements following the `po:Milestone` pattern can only be contained within block or inline elements (and consequently they also cannot be used as root elements of documents).\n\nThe distinctive characteristic of the pattern `po:Milestone` is the location it assumes within the document.\n    "
-      }
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b39",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b44",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],

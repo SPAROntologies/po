@@ -15,7 +15,7 @@ po:Table a owl:Class ;
                 po:canContainHomonymousElements true .
         """ ;
     rdfs:comment "A container element that must contain only homogeneous elements (but they can be repeated)."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( po:Container [ a owl:Restriction ;
                         owl:hasValue false ;

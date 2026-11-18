@@ -1,0 +1,23 @@
+<http://www.essepuntato.it/2008/12/pattern#Field> <http://www.w3.org/2002/07/owl#equivalentClass> _:n9dd00859f25a410db56bbaed00a45169b31 .
+_:n9dd00859f25a410db56bbaed00a45169b31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n9dd00859f25a410db56bbaed00a45169b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Popup> .
+_:n9dd00859f25a410db56bbaed00a45169b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n9dd00859f25a410db56bbaed00a45169b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n9dd00859f25a410db56bbaed00a45169b37 .
+_:n9dd00859f25a410db56bbaed00a45169b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Flat> .
+_:n9dd00859f25a410db56bbaed00a45169b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n9dd00859f25a410db56bbaed00a45169b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n9dd00859f25a410db56bbaed00a45169b32 .
+<http://www.essepuntato.it/2008/12/pattern#Field> <http://www.w3.org/2004/02/skos/core#note> "\nIts main difference with `po:Meta` is that `po:Field` can contain textual content.\n    "@en .
+<http://www.essepuntato.it/2008/12/pattern#Field> <http://www.w3.org/2000/01/rdf-schema#label> "field element"@en .
+_:n9dd00859f25a410db56bbaed00a45169b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.essepuntato.it/2008/12/pattern#Field> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/pattern#Field> <http://purl.org/vocab/vann/example> "\n        :my-author-name a po:Field ;\n                po:isContainedBy :my-author-header .\n        " .
+_:n9dd00859f25a410db56bbaed00a45169b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.essepuntato.it/2008/12/pattern#Field> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+_:n9dd00859f25a410db56bbaed00a45169b33 <http://www.w3.org/2002/07/owl#unionOf> _:n9dd00859f25a410db56bbaed00a45169b34 .
+_:n9dd00859f25a410db56bbaed00a45169b32 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#isContainedBy> .
+_:n9dd00859f25a410db56bbaed00a45169b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Container> .
+_:n9dd00859f25a410db56bbaed00a45169b32 <http://www.w3.org/2002/07/owl#allValuesFrom> _:n9dd00859f25a410db56bbaed00a45169b33 .
+_:n9dd00859f25a410db56bbaed00a45169b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n9dd00859f25a410db56bbaed00a45169b35 .
+<http://www.essepuntato.it/2008/12/pattern#Field> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/po> .
+<http://www.essepuntato.it/2008/12/pattern#Field> <http://www.w3.org/2000/01/rdf-schema#comment> "Literal metadata or text that is not really part of the document body."@en .
+_:n9dd00859f25a410db56bbaed00a45169b31 <http://www.w3.org/2002/07/owl#intersectionOf> _:n9dd00859f25a410db56bbaed00a45169b36 .

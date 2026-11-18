@@ -14,7 +14,7 @@ po:Pattern a owl:Class ;
     rdfs:comment """
 An atomic component of a document that is able to capture a recurrent and well known structure of a document.
 """@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf owl:Thing ;
     vs:term_status reg:statusStable ;
     skos:note """

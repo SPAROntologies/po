@@ -11,7 +11,7 @@ po:NonTextual a owl:Class ;
         :my-element-container a po:NonTextual .
         """ ;
     rdfs:comment "An element that cannot have textual content in its content model."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf po:Pattern ;
     owl:disjointWith po:Textual ;
     owl:equivalentClass [ a owl:Class ;
