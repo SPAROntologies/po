@@ -28,7 +28,7 @@
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b49"
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b49"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -38,7 +38,7 @@
     ]
   },
   {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b49",
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b49",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -49,17 +49,17 @@
             "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
           },
           {
-            "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b50"
+            "@id": "_:n27f50dd15b7c417789d400bde3c61873b50"
           },
           {
-            "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b51"
+            "@id": "_:n27f50dd15b7c417789d400bde3c61873b51"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b50",
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b50",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -76,7 +76,7 @@
     ]
   },
   {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b51",
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b51",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -93,7 +93,7 @@
     ]
   },
   {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b144",
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b144",
     "@type": [
       "http://www.w3.org/2002/07/owl#AllDisjointClasses"
     ],

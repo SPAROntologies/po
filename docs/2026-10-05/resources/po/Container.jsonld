@@ -28,7 +28,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b72"
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b72"
       }
     ],
     "http://www.w3.org/2002/07/owl#disjointWith": [
@@ -38,7 +38,7 @@
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b78"
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b78"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -54,13 +54,13 @@
     ]
   },
   {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b72",
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b72",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
     "http://www.w3.org/2002/07/owl#allValuesFrom": [
       {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b73"
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b73"
       }
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
@@ -70,7 +70,7 @@
     ]
   },
   {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b73",
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b73",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -94,7 +94,7 @@
     ]
   },
   {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b78",
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b78",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -105,20 +105,20 @@
             "@id": "http://www.essepuntato.it/2008/12/pattern#Bucket"
           },
           {
-            "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b79"
+            "@id": "_:n27f50dd15b7c417789d400bde3c61873b79"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b79",
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b79",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
     "http://www.w3.org/2002/07/owl#allValuesFrom": [
       {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b80"
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b80"
       }
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
@@ -128,7 +128,7 @@
     ]
   },
   {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b80",
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b80",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],

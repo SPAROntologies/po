@@ -113,66 +113,66 @@ Popup elements are used whenever complex structures need to be placed within con
         """ ;
         rdfs:comment "A bucket element that is only present within block and inline elements."@en ;
         rdfs:isDefinedBy po: ;
-        rdfs:subClassOf _:n2310ddb3cbc14762a79ca19ea8edb924b55,
-            _:n2310ddb3cbc14762a79ca19ea8edb924b59 ;
-        owl:equivalentClass _:n2310ddb3cbc14762a79ca19ea8edb924b65 ;
+        rdfs:subClassOf _:n27f50dd15b7c417789d400bde3c61873b55,
+            _:n27f50dd15b7c417789d400bde3c61873b59 ;
+        owl:equivalentClass _:n27f50dd15b7c417789d400bde3c61873b65 ;
         vs:term_status reg:statusStable ;
         skos:note """
 Popup elements are used whenever complex structures need to be placed within content elements such as paragraphs.
     """@en .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b55 a owl:Restriction ;
+    _:n27f50dd15b7c417789d400bde3c61873b55 a owl:Restriction ;
         owl:onProperty po:isContainedBy ;
-        owl:someValuesFrom _:n2310ddb3cbc14762a79ca19ea8edb924b56 .
+        owl:someValuesFrom _:n27f50dd15b7c417789d400bde3c61873b56 .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b56 a owl:Class ;
-        owl:unionOf _:n2310ddb3cbc14762a79ca19ea8edb924b57 .
+    _:n27f50dd15b7c417789d400bde3c61873b56 a owl:Class ;
+        owl:unionOf _:n27f50dd15b7c417789d400bde3c61873b57 .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b57 rdf:first po:Block ;
-        rdf:rest _:n2310ddb3cbc14762a79ca19ea8edb924b58 .
+    _:n27f50dd15b7c417789d400bde3c61873b57 rdf:first po:Block ;
+        rdf:rest _:n27f50dd15b7c417789d400bde3c61873b58 .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b58 rdf:first po:Inline ;
+    _:n27f50dd15b7c417789d400bde3c61873b58 rdf:first po:Inline ;
         rdf:rest () .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b59 a owl:Restriction ;
-        owl:allValuesFrom _:n2310ddb3cbc14762a79ca19ea8edb924b60 ;
+    _:n27f50dd15b7c417789d400bde3c61873b59 a owl:Restriction ;
+        owl:allValuesFrom _:n27f50dd15b7c417789d400bde3c61873b60 ;
         owl:onProperty po:contains .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b60 a owl:Class ;
-        owl:unionOf _:n2310ddb3cbc14762a79ca19ea8edb924b61 .
+    _:n27f50dd15b7c417789d400bde3c61873b60 a owl:Class ;
+        owl:unionOf _:n27f50dd15b7c417789d400bde3c61873b61 .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b61 rdf:first po:Block ;
-        rdf:rest _:n2310ddb3cbc14762a79ca19ea8edb924b62 .
+    _:n27f50dd15b7c417789d400bde3c61873b61 rdf:first po:Block ;
+        rdf:rest _:n27f50dd15b7c417789d400bde3c61873b62 .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b62 rdf:first po:Container ;
-        rdf:rest _:n2310ddb3cbc14762a79ca19ea8edb924b63 .
+    _:n27f50dd15b7c417789d400bde3c61873b62 rdf:first po:Container ;
+        rdf:rest _:n27f50dd15b7c417789d400bde3c61873b63 .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b63 rdf:first po:Field ;
-        rdf:rest _:n2310ddb3cbc14762a79ca19ea8edb924b64 .
+    _:n27f50dd15b7c417789d400bde3c61873b63 rdf:first po:Field ;
+        rdf:rest _:n27f50dd15b7c417789d400bde3c61873b64 .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b64 rdf:first po:Meta ;
+    _:n27f50dd15b7c417789d400bde3c61873b64 rdf:first po:Meta ;
         rdf:rest () .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b65 a owl:Class ;
-        owl:intersectionOf _:n2310ddb3cbc14762a79ca19ea8edb924b70 .
+    _:n27f50dd15b7c417789d400bde3c61873b65 a owl:Class ;
+        owl:intersectionOf _:n27f50dd15b7c417789d400bde3c61873b70 .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b66 a owl:Restriction ;
-        owl:allValuesFrom _:n2310ddb3cbc14762a79ca19ea8edb924b67 ;
+    _:n27f50dd15b7c417789d400bde3c61873b66 a owl:Restriction ;
+        owl:allValuesFrom _:n27f50dd15b7c417789d400bde3c61873b67 ;
         owl:onProperty po:isContainedBy .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b67 a owl:Class ;
-        owl:unionOf _:n2310ddb3cbc14762a79ca19ea8edb924b68 .
+    _:n27f50dd15b7c417789d400bde3c61873b67 a owl:Class ;
+        owl:unionOf _:n27f50dd15b7c417789d400bde3c61873b68 .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b68 rdf:first po:Block ;
-        rdf:rest _:n2310ddb3cbc14762a79ca19ea8edb924b69 .
+    _:n27f50dd15b7c417789d400bde3c61873b68 rdf:first po:Block ;
+        rdf:rest _:n27f50dd15b7c417789d400bde3c61873b69 .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b69 rdf:first po:Inline ;
+    _:n27f50dd15b7c417789d400bde3c61873b69 rdf:first po:Inline ;
         rdf:rest () .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b70 rdf:first po:Bucket ;
-        rdf:rest _:n2310ddb3cbc14762a79ca19ea8edb924b71 .
+    _:n27f50dd15b7c417789d400bde3c61873b70 rdf:first po:Bucket ;
+        rdf:rest _:n27f50dd15b7c417789d400bde3c61873b71 .
 
-    _:n2310ddb3cbc14762a79ca19ea8edb924b71 rdf:first _:n2310ddb3cbc14762a79ca19ea8edb924b66 ;
+    _:n27f50dd15b7c417789d400bde3c61873b71 rdf:first _:n27f50dd15b7c417789d400bde3c61873b66 ;
         rdf:rest () .
 }
 
@@ -208,15 +208,15 @@ Popup elements are used whenever complex structures need to be placed within con
         ],
         "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
           {
-            "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b59"
+            "@id": "_:n27f50dd15b7c417789d400bde3c61873b59"
           },
           {
-            "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b55"
+            "@id": "_:n27f50dd15b7c417789d400bde3c61873b55"
           }
         ],
         "http://www.w3.org/2002/07/owl#equivalentClass": [
           {
-            "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b65"
+            "@id": "_:n27f50dd15b7c417789d400bde3c61873b65"
           }
         ],
         "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -232,13 +232,65 @@ Popup elements are used whenever complex structures need to be placed within con
         ]
       },
       {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b59",
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b65",
+        "@type": [
+          "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#intersectionOf": [
+          {
+            "@list": [
+              {
+                "@id": "http://www.essepuntato.it/2008/12/pattern#Bucket"
+              },
+              {
+                "@id": "_:n27f50dd15b7c417789d400bde3c61873b66"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b66",
         "@type": [
           "http://www.w3.org/2002/07/owl#Restriction"
         ],
         "http://www.w3.org/2002/07/owl#allValuesFrom": [
           {
-            "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b60"
+            "@id": "_:n27f50dd15b7c417789d400bde3c61873b67"
+          }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
+          }
+        ]
+      },
+      {
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b67",
+        "@type": [
+          "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#unionOf": [
+          {
+            "@list": [
+              {
+                "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
+              },
+              {
+                "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b59",
+        "@type": [
+          "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#allValuesFrom": [
+          {
+            "@id": "_:n27f50dd15b7c417789d400bde3c61873b60"
           }
         ],
         "http://www.w3.org/2002/07/owl#onProperty": [
@@ -248,7 +300,7 @@ Popup elements are used whenever complex structures need to be placed within con
         ]
       },
       {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b60",
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b60",
         "@type": [
           "http://www.w3.org/2002/07/owl#Class"
         ],
@@ -272,7 +324,7 @@ Popup elements are used whenever complex structures need to be placed within con
         ]
       },
       {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b55",
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b55",
         "@type": [
           "http://www.w3.org/2002/07/owl#Restriction"
         ],
@@ -283,64 +335,12 @@ Popup elements are used whenever complex structures need to be placed within con
         ],
         "http://www.w3.org/2002/07/owl#someValuesFrom": [
           {
-            "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b56"
+            "@id": "_:n27f50dd15b7c417789d400bde3c61873b56"
           }
         ]
       },
       {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b56",
-        "@type": [
-          "http://www.w3.org/2002/07/owl#Class"
-        ],
-        "http://www.w3.org/2002/07/owl#unionOf": [
-          {
-            "@list": [
-              {
-                "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
-              },
-              {
-                "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b65",
-        "@type": [
-          "http://www.w3.org/2002/07/owl#Class"
-        ],
-        "http://www.w3.org/2002/07/owl#intersectionOf": [
-          {
-            "@list": [
-              {
-                "@id": "http://www.essepuntato.it/2008/12/pattern#Bucket"
-              },
-              {
-                "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b66"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b66",
-        "@type": [
-          "http://www.w3.org/2002/07/owl#Restriction"
-        ],
-        "http://www.w3.org/2002/07/owl#allValuesFrom": [
-          {
-            "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b67"
-          }
-        ],
-        "http://www.w3.org/2002/07/owl#onProperty": [
-          {
-            "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
-          }
-        ]
-      },
-      {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b67",
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b56",
         "@type": [
           "http://www.w3.org/2002/07/owl#Class"
         ],
@@ -360,53 +360,53 @@ Popup elements are used whenever complex structures need to be placed within con
     ],
     "@id": "http://purl.org/spar/po"
   }
-]</code></pre></div><div class="tab-pane fade" id=id_48f580ac330ed07654d06a22618edb90_Concept_prov_3 role=tabpanel><pre class="mb-0 small"><code>_:n2310ddb3cbc14762a79ca19ea8edb924b68 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b69 &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b60 &lt;http://www.w3.org/2002/07/owl#unionOf> _:n2310ddb3cbc14762a79ca19ea8edb924b61 &lt;http://purl.org/spar/po> .
-&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/2004/02/skos/core#note> "\nPopup elements are used whenever complex structures need to be placed within content elements such as paragraphs.\n    "@en &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b65 &lt;http://www.w3.org/2002/07/owl#intersectionOf> _:n2310ddb3cbc14762a79ca19ea8edb924b70 &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b62 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b63 &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b56 &lt;http://www.w3.org/2002/07/owl#unionOf> _:n2310ddb3cbc14762a79ca19ea8edb924b57 &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b64 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b57 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b58 &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b63 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b64 &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b67 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b57 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Block> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b68 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Block> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b55 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Restriction> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b64 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Meta> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b66 &lt;http://www.w3.org/2002/07/owl#allValuesFrom> _:n2310ddb3cbc14762a79ca19ea8edb924b67 &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b67 &lt;http://www.w3.org/2002/07/owl#unionOf> _:n2310ddb3cbc14762a79ca19ea8edb924b68 &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b58 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b71 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n2310ddb3cbc14762a79ca19ea8edb924b66 &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b58 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Inline> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b69 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> &lt;http://purl.org/spar/po> .
-&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/2000/01/rdf-schema#isDefinedBy> &lt;http://www.essepuntato.it/2008/12/pattern#> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b61 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Block> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b61 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b62 &lt;http://purl.org/spar/po> .
-&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n2310ddb3cbc14762a79ca19ea8edb924b59 &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b55 &lt;http://www.w3.org/2002/07/owl#onProperty> &lt;http://www.essepuntato.it/2008/12/pattern#isContainedBy> &lt;http://purl.org/spar/po> .
-&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://purl.org/vocab/vann/example> "\n        :my-footnote a po:Popup ;\n                po:isContainedBy :my-paragraph ;\n                po:contains :my-footnote-block .\n        " &lt;http://purl.org/spar/po> .
-&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/2000/01/rdf-schema#comment> "A bucket element that is only present within block and inline elements."@en &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b66 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Restriction> &lt;http://purl.org/spar/po> .
-&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> &lt;http://purl.org/linked-data/registry#statusStable> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b70 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b71 &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b63 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Field> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b69 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Inline> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b65 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b59 &lt;http://www.w3.org/2002/07/owl#allValuesFrom> _:n2310ddb3cbc14762a79ca19ea8edb924b60 &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b71 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b59 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Restriction> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b55 &lt;http://www.w3.org/2002/07/owl#someValuesFrom> _:n2310ddb3cbc14762a79ca19ea8edb924b56 &lt;http://purl.org/spar/po> .
-&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n2310ddb3cbc14762a79ca19ea8edb924b55 &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b56 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> &lt;http://purl.org/spar/po> .
-&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/2000/01/rdf-schema#label> "popup element"@en &lt;http://purl.org/spar/po> .
+]</code></pre></div><div class="tab-pane fade" id=id_48f580ac330ed07654d06a22618edb90_Concept_prov_3 role=tabpanel><pre class="mb-0 small"><code>_:n27f50dd15b7c417789d400bde3c61873b55 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Restriction> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b63 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Field> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b69 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> &lt;http://purl.org/spar/po> .
 &lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> &lt;http://purl.org/spar/po> .
-&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/2002/07/owl#equivalentClass> _:n2310ddb3cbc14762a79ca19ea8edb924b65 &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b66 &lt;http://www.w3.org/2002/07/owl#onProperty> &lt;http://www.essepuntato.it/2008/12/pattern#isContainedBy> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b60 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b62 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Container> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b70 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Bucket> &lt;http://purl.org/spar/po> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b59 &lt;http://www.w3.org/2002/07/owl#onProperty> &lt;http://www.essepuntato.it/2008/12/pattern#contains> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b69 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Inline> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b60 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b61 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Block> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b67 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b65 &lt;http://www.w3.org/2002/07/owl#intersectionOf> _:n27f50dd15b7c417789d400bde3c61873b70 &lt;http://purl.org/spar/po> .
+&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> &lt;http://purl.org/linked-data/registry#statusStable> &lt;http://purl.org/spar/po> .
+&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/2004/02/skos/core#note> "\nPopup elements are used whenever complex structures need to be placed within content elements such as paragraphs.\n    "@en &lt;http://purl.org/spar/po> .
+&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/2002/07/owl#equivalentClass> _:n27f50dd15b7c417789d400bde3c61873b65 &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b68 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b69 &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b66 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Restriction> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b62 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Container> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b67 &lt;http://www.w3.org/2002/07/owl#unionOf> _:n27f50dd15b7c417789d400bde3c61873b68 &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b70 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Bucket> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b57 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b58 &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b56 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b63 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b64 &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b68 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Block> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b61 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b62 &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b58 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Inline> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b64 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b71 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> &lt;http://purl.org/spar/po> .
+&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n27f50dd15b7c417789d400bde3c61873b59 &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b55 &lt;http://www.w3.org/2002/07/owl#onProperty> &lt;http://www.essepuntato.it/2008/12/pattern#isContainedBy> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b71 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n27f50dd15b7c417789d400bde3c61873b66 &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b62 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b63 &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b65 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b64 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Meta> &lt;http://purl.org/spar/po> .
+&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://purl.org/vocab/vann/example> "\n        :my-footnote a po:Popup ;\n                po:isContainedBy :my-paragraph ;\n                po:contains :my-footnote-block .\n        " &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b59 &lt;http://www.w3.org/2002/07/owl#allValuesFrom> _:n27f50dd15b7c417789d400bde3c61873b60 &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b56 &lt;http://www.w3.org/2002/07/owl#unionOf> _:n27f50dd15b7c417789d400bde3c61873b57 &lt;http://purl.org/spar/po> .
+&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/2000/01/rdf-schema#comment> "A bucket element that is only present within block and inline elements."@en &lt;http://purl.org/spar/po> .
+&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n27f50dd15b7c417789d400bde3c61873b55 &lt;http://purl.org/spar/po> .
+&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/2000/01/rdf-schema#isDefinedBy> &lt;http://www.essepuntato.it/2008/12/pattern#> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b66 &lt;http://www.w3.org/2002/07/owl#onProperty> &lt;http://www.essepuntato.it/2008/12/pattern#isContainedBy> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b59 &lt;http://www.w3.org/2002/07/owl#onProperty> &lt;http://www.essepuntato.it/2008/12/pattern#contains> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b57 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://www.essepuntato.it/2008/12/pattern#Block> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b58 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b60 &lt;http://www.w3.org/2002/07/owl#unionOf> _:n27f50dd15b7c417789d400bde3c61873b61 &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b70 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b71 &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b55 &lt;http://www.w3.org/2002/07/owl#someValuesFrom> _:n27f50dd15b7c417789d400bde3c61873b56 &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b59 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Restriction> &lt;http://purl.org/spar/po> .
+&lt;http://www.essepuntato.it/2008/12/pattern#Popup> &lt;http://www.w3.org/2000/01/rdf-schema#label> "popup element"@en &lt;http://purl.org/spar/po> .
+_:n27f50dd15b7c417789d400bde3c61873b66 &lt;http://www.w3.org/2002/07/owl#allValuesFrom> _:n27f50dd15b7c417789d400bde3c61873b67 &lt;http://purl.org/spar/po> .
 
 </code></pre></div></div></div></div></div></div></div></div></div></div><div><a class="btn btn-outline-secondary" href=../../po.html>← Back to full documentation</a></div><script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js></script><script src=https://cdn.jsdelivr.net/npm/marked/marked.min.js></script><script src=https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js></script><script>document.addEventListener("DOMContentLoaded", function() {
 

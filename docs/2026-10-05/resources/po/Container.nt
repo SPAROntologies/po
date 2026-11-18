@@ -1,38 +1,38 @@
-_:n2310ddb3cbc14762a79ca19ea8edb924b78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n2310ddb3cbc14762a79ca19ea8edb924b79 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b73 <http://www.w3.org/2002/07/owl#unionOf> _:n2310ddb3cbc14762a79ca19ea8edb924b74 .
-<http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n2310ddb3cbc14762a79ca19ea8edb924b72 .
-<http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.essepuntato.it/2008/12/pattern#Popup> .
-<http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/2000/01/rdf-schema#label> "container element"@en .
-_:n2310ddb3cbc14762a79ca19ea8edb924b75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Container> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Popup> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b72 <http://www.w3.org/2002/07/owl#allValuesFrom> _:n2310ddb3cbc14762a79ca19ea8edb924b73 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.essepuntato.it/2008/12/pattern#Container> <http://purl.org/vocab/vann/example> "\n        :my-body a po:Container ;\n                po:contains :section-1, :section-2 .\n        " .
-_:n2310ddb3cbc14762a79ca19ea8edb924b76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b77 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b79 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#isContainedBy> .
-<http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2008/12/pattern#> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Field> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b84 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b82 .
-<http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Bucket> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b75 .
-<http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/2004/02/skos/core#note> "\nElements following this pattern contain no textual content and contain only elements compliant with the patterns: `po:Meta`, `po:Field`, `po:Block` and any subtype of `po:Container`. \n\nIt is disjointed with the pattern `po:Popup`, although they share the same content model.\n    "@en .
-_:n2310ddb3cbc14762a79ca19ea8edb924b80 <http://www.w3.org/2002/07/owl#unionOf> _:n2310ddb3cbc14762a79ca19ea8edb924b81 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Block> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b76 .
-<http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b72 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#contains> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Meta> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b78 <http://www.w3.org/2002/07/owl#intersectionOf> _:n2310ddb3cbc14762a79ca19ea8edb924b83 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/2002/07/owl#equivalentClass> _:n2310ddb3cbc14762a79ca19ea8edb924b78 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Container> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b79 <http://www.w3.org/2002/07/owl#allValuesFrom> _:n2310ddb3cbc14762a79ca19ea8edb924b80 .
+_:n27f50dd15b7c417789d400bde3c61873b72 <http://www.w3.org/2002/07/owl#allValuesFrom> _:n27f50dd15b7c417789d400bde3c61873b73 .
 <http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/2000/01/rdf-schema#comment> "An element concerning the structural organization of a document."@en .
+_:n27f50dd15b7c417789d400bde3c61873b84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n27f50dd15b7c417789d400bde3c61873b72 .
+_:n27f50dd15b7c417789d400bde3c61873b78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.essepuntato.it/2008/12/pattern#Popup> .
+_:n27f50dd15b7c417789d400bde3c61873b83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b84 .
+_:n27f50dd15b7c417789d400bde3c61873b76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b77 .
+<http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/2004/02/skos/core#note> "\nElements following this pattern contain no textual content and contain only elements compliant with the patterns: `po:Meta`, `po:Field`, `po:Block` and any subtype of `po:Container`. \n\nIt is disjointed with the pattern `po:Popup`, although they share the same content model.\n    "@en .
+_:n27f50dd15b7c417789d400bde3c61873b73 <http://www.w3.org/2002/07/owl#unionOf> _:n27f50dd15b7c417789d400bde3c61873b74 .
+<http://www.essepuntato.it/2008/12/pattern#Container> <http://purl.org/vocab/vann/example> "\n        :my-body a po:Container ;\n                po:contains :section-1, :section-2 .\n        " .
+_:n27f50dd15b7c417789d400bde3c61873b75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Container> .
+_:n27f50dd15b7c417789d400bde3c61873b79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n27f50dd15b7c417789d400bde3c61873b73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n27f50dd15b7c417789d400bde3c61873b82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Popup> .
+<http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n27f50dd15b7c417789d400bde3c61873b82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n27f50dd15b7c417789d400bde3c61873b81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Container> .
+_:n27f50dd15b7c417789d400bde3c61873b76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Field> .
+<http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+_:n27f50dd15b7c417789d400bde3c61873b75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b76 .
+<http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/2002/07/owl#equivalentClass> _:n27f50dd15b7c417789d400bde3c61873b78 .
+_:n27f50dd15b7c417789d400bde3c61873b74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Block> .
+_:n27f50dd15b7c417789d400bde3c61873b78 <http://www.w3.org/2002/07/owl#intersectionOf> _:n27f50dd15b7c417789d400bde3c61873b83 .
+_:n27f50dd15b7c417789d400bde3c61873b81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b82 .
+_:n27f50dd15b7c417789d400bde3c61873b74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b75 .
+<http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/2000/01/rdf-schema#label> "container element"@en .
+_:n27f50dd15b7c417789d400bde3c61873b72 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#contains> .
+_:n27f50dd15b7c417789d400bde3c61873b79 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#isContainedBy> .
+_:n27f50dd15b7c417789d400bde3c61873b77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Meta> .
+_:n27f50dd15b7c417789d400bde3c61873b79 <http://www.w3.org/2002/07/owl#allValuesFrom> _:n27f50dd15b7c417789d400bde3c61873b80 .
+_:n27f50dd15b7c417789d400bde3c61873b77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n27f50dd15b7c417789d400bde3c61873b83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Bucket> .
+_:n27f50dd15b7c417789d400bde3c61873b84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n27f50dd15b7c417789d400bde3c61873b79 .
+_:n27f50dd15b7c417789d400bde3c61873b72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n27f50dd15b7c417789d400bde3c61873b80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n27f50dd15b7c417789d400bde3c61873b80 <http://www.w3.org/2002/07/owl#unionOf> _:n27f50dd15b7c417789d400bde3c61873b81 .
+<http://www.essepuntato.it/2008/12/pattern#Container> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2008/12/pattern#> .

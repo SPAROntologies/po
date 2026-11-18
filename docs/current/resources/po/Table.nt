@@ -1,29 +1,29 @@
-_:n2310ddb3cbc14762a79ca19ea8edb924b50 <http://www.w3.org/2002/07/owl#hasValue> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b54 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#HeadedContainer> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n2310ddb3cbc14762a79ca19ea8edb924b51 .
-<http://www.essepuntato.it/2008/12/pattern#Table> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b50 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements> .
-<http://www.essepuntato.it/2008/12/pattern#Table> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2008/12/pattern#> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Table> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b49 <http://www.w3.org/2002/07/owl#intersectionOf> _:n2310ddb3cbc14762a79ca19ea8edb924b52 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n2310ddb3cbc14762a79ca19ea8edb924b50 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b144 <http://www.w3.org/2002/07/owl#members> _:n2310ddb3cbc14762a79ca19ea8edb924b145 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b51 <http://www.w3.org/2002/07/owl#hasValue> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.essepuntato.it/2008/12/pattern#Table> <http://www.w3.org/2002/07/owl#equivalentClass> _:n2310ddb3cbc14762a79ca19ea8edb924b49 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b146 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b51 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#canContainHomonymousElements> .
-<http://www.essepuntato.it/2008/12/pattern#Table> <http://www.w3.org/2000/01/rdf-schema#comment> "A container element that must contain only homogeneous elements (but they can be repeated)."@en .
-_:n2310ddb3cbc14762a79ca19ea8edb924b52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b53 .
+_:n27f50dd15b7c417789d400bde3c61873b145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#HeadedContainer> .
 <http://www.essepuntato.it/2008/12/pattern#Table> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.essepuntato.it/2008/12/pattern#Table> <http://purl.org/vocab/vann/example> "\n        :my-list a po:Table ;\n                po:canContainHeteronymousElements false ;\n                po:canContainHomonymousElements true .\n        " .
-_:n2310ddb3cbc14762a79ca19ea8edb924b52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Container> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b147 .
+<http://www.essepuntato.it/2008/12/pattern#Table> <http://www.w3.org/2000/01/rdf-schema#comment> "A container element that must contain only homogeneous elements (but they can be repeated)."@en .
+_:n27f50dd15b7c417789d400bde3c61873b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n27f50dd15b7c417789d400bde3c61873b50 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#canContainHeteronymousElements> .
+<http://www.essepuntato.it/2008/12/pattern#Table> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2008/12/pattern#> .
+_:n27f50dd15b7c417789d400bde3c61873b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n27f50dd15b7c417789d400bde3c61873b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b54 .
+_:n27f50dd15b7c417789d400bde3c61873b144 <http://www.w3.org/2002/07/owl#members> _:n27f50dd15b7c417789d400bde3c61873b145 .
+_:n27f50dd15b7c417789d400bde3c61873b52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b53 .
+_:n27f50dd15b7c417789d400bde3c61873b52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Container> .
+<http://www.essepuntato.it/2008/12/pattern#Table> <http://www.w3.org/2002/07/owl#equivalentClass> _:n27f50dd15b7c417789d400bde3c61873b49 .
+_:n27f50dd15b7c417789d400bde3c61873b51 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#canContainHomonymousElements> .
+_:n27f50dd15b7c417789d400bde3c61873b51 <http://www.w3.org/2002/07/owl#hasValue> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:n27f50dd15b7c417789d400bde3c61873b146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b147 .
+_:n27f50dd15b7c417789d400bde3c61873b145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b146 .
+_:n27f50dd15b7c417789d400bde3c61873b146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Record> .
 <http://www.essepuntato.it/2008/12/pattern#Table> <http://www.w3.org/2000/01/rdf-schema#label> "table element"@en .
-_:n2310ddb3cbc14762a79ca19ea8edb924b146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Record> .
+_:n27f50dd15b7c417789d400bde3c61873b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n27f50dd15b7c417789d400bde3c61873b50 .
+<http://www.essepuntato.it/2008/12/pattern#Table> <http://purl.org/vocab/vann/example> "\n        :my-list a po:Table ;\n                po:canContainHeteronymousElements false ;\n                po:canContainHomonymousElements true .\n        " .
+_:n27f50dd15b7c417789d400bde3c61873b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n27f50dd15b7c417789d400bde3c61873b147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Table> .
+_:n27f50dd15b7c417789d400bde3c61873b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n27f50dd15b7c417789d400bde3c61873b51 .
+_:n27f50dd15b7c417789d400bde3c61873b49 <http://www.w3.org/2002/07/owl#intersectionOf> _:n27f50dd15b7c417789d400bde3c61873b52 .
+_:n27f50dd15b7c417789d400bde3c61873b50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n27f50dd15b7c417789d400bde3c61873b144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:n27f50dd15b7c417789d400bde3c61873b50 <http://www.w3.org/2002/07/owl#hasValue> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.essepuntato.it/2008/12/pattern#Table> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+_:n27f50dd15b7c417789d400bde3c61873b147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .

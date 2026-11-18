@@ -28,10 +28,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://www.essepuntato.it/2008/12/pattern#Structured"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Textual"
       },
       {
-        "@id": "http://www.essepuntato.it/2008/12/pattern#Textual"
+        "@id": "http://www.essepuntato.it/2008/12/pattern#Structured"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [

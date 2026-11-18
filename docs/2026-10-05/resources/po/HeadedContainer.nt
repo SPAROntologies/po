@@ -1,24 +1,24 @@
-_:n2310ddb3cbc14762a79ca19ea8edb924b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#HeadedContainer> .
-<http://www.essepuntato.it/2008/12/pattern#HeadedContainer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2008/12/pattern#> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b2 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.essepuntato.it/2008/12/pattern#Block> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n2310ddb3cbc14762a79ca19ea8edb924b2 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Table> .
-<http://www.essepuntato.it/2008/12/pattern#HeadedContainer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b1 <http://www.w3.org/2002/07/owl#intersectionOf> _:n2310ddb3cbc14762a79ca19ea8edb924b3 .
-<http://www.essepuntato.it/2008/12/pattern#HeadedContainer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n2310ddb3cbc14762a79ca19ea8edb924b1 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b4 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b144 <http://www.w3.org/2002/07/owl#members> _:n2310ddb3cbc14762a79ca19ea8edb924b145 .
+_:n27f50dd15b7c417789d400bde3c61873b145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#HeadedContainer> .
+_:n27f50dd15b7c417789d400bde3c61873b1 <http://www.w3.org/2002/07/owl#intersectionOf> _:n27f50dd15b7c417789d400bde3c61873b3 .
+_:n27f50dd15b7c417789d400bde3c61873b2 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.essepuntato.it/2008/12/pattern#Block> .
 <http://www.essepuntato.it/2008/12/pattern#HeadedContainer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b146 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://www.essepuntato.it/2008/12/pattern#HeadedContainer> <http://purl.org/vocab/vann/example> "\n        :my-section a po:HeadedContainer ;\n                po:containsAsHeader :my-title ;\n                po:contains :my-para .\n        " .
-_:n2310ddb3cbc14762a79ca19ea8edb924b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Container> .
 <http://www.essepuntato.it/2008/12/pattern#HeadedContainer> <http://www.w3.org/2000/01/rdf-schema#label> "headed-container element"@en .
-_:n2310ddb3cbc14762a79ca19ea8edb924b2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#containsAsHeader> .
-_:n2310ddb3cbc14762a79ca19ea8edb924b146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n2310ddb3cbc14762a79ca19ea8edb924b147 .
-_:n2310ddb3cbc14762a79ca19ea8edb924b146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Record> .
+_:n27f50dd15b7c417789d400bde3c61873b2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/pattern#containsAsHeader> .
+_:n27f50dd15b7c417789d400bde3c61873b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b4 .
+_:n27f50dd15b7c417789d400bde3c61873b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n27f50dd15b7c417789d400bde3c61873b2 .
+<http://www.essepuntato.it/2008/12/pattern#HeadedContainer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2008/12/pattern#> .
+_:n27f50dd15b7c417789d400bde3c61873b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Container> .
+_:n27f50dd15b7c417789d400bde3c61873b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://www.essepuntato.it/2008/12/pattern#HeadedContainer> <http://www.w3.org/2000/01/rdf-schema#comment> "A container element whose content model needs to begin with one or more block elements (the heading)."@en .
+<http://www.essepuntato.it/2008/12/pattern#HeadedContainer> <http://purl.org/vocab/vann/example> "\n        :my-section a po:HeadedContainer ;\n                po:containsAsHeader :my-title ;\n                po:contains :my-para .\n        " .
+_:n27f50dd15b7c417789d400bde3c61873b144 <http://www.w3.org/2002/07/owl#members> _:n27f50dd15b7c417789d400bde3c61873b145 .
+_:n27f50dd15b7c417789d400bde3c61873b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.essepuntato.it/2008/12/pattern#HeadedContainer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n27f50dd15b7c417789d400bde3c61873b1 .
+<http://www.essepuntato.it/2008/12/pattern#HeadedContainer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n27f50dd15b7c417789d400bde3c61873b146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b147 .
+_:n27f50dd15b7c417789d400bde3c61873b145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n27f50dd15b7c417789d400bde3c61873b146 .
+_:n27f50dd15b7c417789d400bde3c61873b146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Record> .
+_:n27f50dd15b7c417789d400bde3c61873b147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/pattern#Table> .
+_:n27f50dd15b7c417789d400bde3c61873b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n27f50dd15b7c417789d400bde3c61873b144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:n27f50dd15b7c417789d400bde3c61873b147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .

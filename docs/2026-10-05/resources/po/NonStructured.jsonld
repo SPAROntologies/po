@@ -38,7 +38,7 @@
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b16"
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b16"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -48,7 +48,7 @@
     ]
   },
   {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b16",
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b16",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],

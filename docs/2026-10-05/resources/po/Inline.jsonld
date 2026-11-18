@@ -28,15 +28,15 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b102"
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b98"
       },
       {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b98"
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b102"
       }
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b108"
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b108"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -52,7 +52,7 @@
     ]
   },
   {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b108",
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b108",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -63,20 +63,20 @@
             "@id": "http://www.essepuntato.it/2008/12/pattern#Mixed"
           },
           {
-            "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b109"
+            "@id": "_:n27f50dd15b7c417789d400bde3c61873b109"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b109",
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b109",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
     "http://www.w3.org/2002/07/owl#allValuesFrom": [
       {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b110"
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b110"
       }
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
@@ -86,7 +86,7 @@
     ]
   },
   {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b110",
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b110",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -104,13 +104,47 @@
     ]
   },
   {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b102",
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b98",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b99"
+      }
+    ]
+  },
+  {
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b99",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b102",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
     "http://www.w3.org/2002/07/owl#allValuesFrom": [
       {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b103"
+        "@id": "_:n27f50dd15b7c417789d400bde3c61873b103"
       }
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
@@ -120,7 +154,7 @@
     ]
   },
   {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b103",
+    "@id": "_:n27f50dd15b7c417789d400bde3c61873b103",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -138,40 +172,6 @@
           },
           {
             "@id": "http://www.essepuntato.it/2008/12/pattern#Popup"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b98",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://www.essepuntato.it/2008/12/pattern#isContainedBy"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#someValuesFrom": [
-      {
-        "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b99"
-      }
-    ]
-  },
-  {
-    "@id": "_:n2310ddb3cbc14762a79ca19ea8edb924b99",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2002/07/owl#unionOf": [
-      {
-        "@list": [
-          {
-            "@id": "http://www.essepuntato.it/2008/12/pattern#Block"
-          },
-          {
-            "@id": "http://www.essepuntato.it/2008/12/pattern#Inline"
           }
         ]
       }
