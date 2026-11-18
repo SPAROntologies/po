@@ -1,5 +1,26 @@
 [
   {
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b144",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+    ],
+    "http://www.w3.org/2002/07/owl#members": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#HeadedContainer"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Record"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/pattern#Table"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "@id": "http://www.essepuntato.it/2008/12/pattern#HeadedContainer",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
@@ -17,7 +38,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://www.essepuntato.it/2008/12/pattern#"
+        "@id": "http://purl.org/spar/po"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -28,7 +49,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b1"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b1"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -38,7 +59,7 @@
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b1",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b1",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -49,14 +70,14 @@
             "@id": "http://www.essepuntato.it/2008/12/pattern#Container"
           },
           {
-            "@id": "_:n27f50dd15b7c417789d400bde3c61873b2"
+            "@id": "_:n9dd00859f25a410db56bbaed00a45169b2"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b2",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b2",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -68,27 +89,6 @@
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
         "@id": "http://www.essepuntato.it/2008/12/pattern#containsAsHeader"
-      }
-    ]
-  },
-  {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b144",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#AllDisjointClasses"
-    ],
-    "http://www.w3.org/2002/07/owl#members": [
-      {
-        "@list": [
-          {
-            "@id": "http://www.essepuntato.it/2008/12/pattern#HeadedContainer"
-          },
-          {
-            "@id": "http://www.essepuntato.it/2008/12/pattern#Record"
-          },
-          {
-            "@id": "http://www.essepuntato.it/2008/12/pattern#Table"
-          }
-        ]
       }
     ]
   }

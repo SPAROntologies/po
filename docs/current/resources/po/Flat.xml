@@ -7,17 +7,17 @@
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
   <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/pattern#Flat">
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/po"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2008/12/pattern#Textual"/>
+    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2008/12/pattern#NonStructured"/>
+    <owl:disjointWith rdf:resource="http://www.essepuntato.it/2008/12/pattern#Mixed"/>
     <vann:example>
         :my-flat a po:Flat ;
                 po:hasName "text" .
         </vann:example>
-    <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
-    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2008/12/pattern#NonStructured"/>
-    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2008/12/pattern#Textual"/>
     <rdfs:comment xml:lang="en">An element that can contain text nodes but no elements.</rdfs:comment>
     <rdfs:label xml:lang="en">flat element</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2008/12/pattern#"/>
-    <owl:disjointWith rdf:resource="http://www.essepuntato.it/2008/12/pattern#Mixed"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
   </rdf:Description>
 </rdf:RDF>

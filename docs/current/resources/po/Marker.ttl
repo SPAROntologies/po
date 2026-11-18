@@ -12,7 +12,7 @@ po:Marker a owl:Class ;
                 po:hasName "br" .
         """ ;
     rdfs:comment "An element that can contain neither text nodes nor elements."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf po:NonStructured,
         po:NonTextual ;
     vs:term_status reg:statusStable .

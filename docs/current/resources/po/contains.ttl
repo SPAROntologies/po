@@ -13,7 +13,7 @@ po:contains a owl:ObjectProperty ;
         """ ;
     rdfs:comment "The relation between a structured element containing another generic element, and that other element."@en ;
     rdfs:domain po:Structured ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     owl:inverseOf po:isContainedBy ;
     vs:term_status reg:statusStable .
 

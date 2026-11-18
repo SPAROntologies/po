@@ -17,7 +17,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://www.essepuntato.it/2008/12/pattern#"
+        "@id": "http://purl.org/spar/po"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -33,7 +33,7 @@
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b18"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b18"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -49,7 +49,7 @@
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b18",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b18",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -60,14 +60,14 @@
             "@id": "http://www.essepuntato.it/2008/12/pattern#Marker"
           },
           {
-            "@id": "_:n27f50dd15b7c417789d400bde3c61873b19"
+            "@id": "_:n9dd00859f25a410db56bbaed00a45169b19"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b19",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b19",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -78,12 +78,12 @@
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
       {
-        "@id": "_:n27f50dd15b7c417789d400bde3c61873b20"
+        "@id": "_:n9dd00859f25a410db56bbaed00a45169b20"
       }
     ]
   },
   {
-    "@id": "_:n27f50dd15b7c417789d400bde3c61873b20",
+    "@id": "_:n9dd00859f25a410db56bbaed00a45169b20",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],

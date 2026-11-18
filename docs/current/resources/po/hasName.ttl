@@ -14,7 +14,7 @@ po:hasName a owl:DatatypeProperty,
                 po:hasName "p" .
         """ ;
     rdfs:comment "The name of a particular element."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:range xsd:string ;
     vs:term_status reg:statusStable .
 

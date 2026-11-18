@@ -14,7 +14,7 @@ po:Field a owl:Class ;
                 po:isContainedBy :my-author-header .
         """ ;
     rdfs:comment "Literal metadata or text that is not really part of the document body."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( po:Flat [ a owl:Restriction ;
                         owl:allValuesFrom [ a owl:Class ;

@@ -12,7 +12,7 @@ po:Bucket a owl:Class ;
                 po:contains :item-1, :item-2 .
         """ ;
     rdfs:comment "An element that can contain other elements but no text nodes."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf po:NonTextual,
         po:Structured ;
     owl:disjointWith po:Marker ;

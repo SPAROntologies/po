@@ -6,21 +6,21 @@
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
-  <rdf:Description rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b16">
-    <owl:complementOf rdf:resource="http://www.essepuntato.it/2008/12/pattern#Structured"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/pattern#NonStructured">
+    <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:label xml:lang="en">non-structured element</rdfs:label>
+    <rdfs:comment xml:lang="en">An element that cannot contain other elements.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/po"/>
+    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2008/12/pattern#Pattern"/>
     <vann:example>
         :my-leaf-node a po:NonStructured .
         </vann:example>
-    <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
-    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2008/12/pattern#"/>
-    <owl:equivalentClass rdf:nodeID="n27f50dd15b7c417789d400bde3c61873b16"/>
-    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2008/12/pattern#Pattern"/>
+    <owl:equivalentClass rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b16"/>
     <owl:disjointWith rdf:resource="http://www.essepuntato.it/2008/12/pattern#Structured"/>
-    <rdfs:comment xml:lang="en">An element that cannot contain other elements.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n9dd00859f25a410db56bbaed00a45169b16">
+    <owl:complementOf rdf:resource="http://www.essepuntato.it/2008/12/pattern#Structured"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
 </rdf:RDF>

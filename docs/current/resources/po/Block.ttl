@@ -15,7 +15,7 @@ po:Block a owl:Class ;
                 po:contains :my-span .
         """ ;
     rdfs:comment "An element that organises the document content as a sequence of nestable elements and text nodes."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:allValuesFrom [ a owl:Class ;
                     owl:unionOf ( po:Atom po:Inline po:Milestone po:Popup ) ] ;

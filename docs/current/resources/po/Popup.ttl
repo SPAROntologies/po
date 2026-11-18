@@ -15,7 +15,7 @@ po:Popup a owl:Class ;
                 po:contains :my-footnote-block .
         """ ;
     rdfs:comment "A bucket element that is only present within block and inline elements."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty po:isContainedBy ;
             owl:someValuesFrom [ a owl:Class ;

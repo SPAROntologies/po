@@ -14,7 +14,7 @@ po:Atom a owl:Class ;
                 po:isContainedBy :my-paragraph .
         """ ;
     rdfs:comment "Literal text that is part of the document body."@en ;
-    rdfs:isDefinedBy po: ;
+    rdfs:isDefinedBy <http://purl.org/spar/po> ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty po:isContainedBy ;
             owl:someValuesFrom [ a owl:Class ;
